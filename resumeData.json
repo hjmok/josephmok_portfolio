@@ -120,13 +120,13 @@
         "title":"GANs",
         "category":"Generative Adversarial Network for Dog & Cat Images",
         "image":"fake_samples_epoch_1450.png",
-        "url":"https://hjmok.github.io/josephmok_portfolio/#/GAN/home"
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/GAN"
       },
       {
         "title":"Object Detection with SSD",
         "category":"Implementing a Single Shot Multibox Detection model for object tracking",
         "image":"SSD.png",
-        "url":"http://localhost:3000/SSD"
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/SSD"
       },
       {
         "title":"Face Detection with Haar Cascades",
@@ -158,7 +158,7 @@
         "title":"Novel Text Generation with LSTM",
         "category":"Training an RNN on different novels to generate texts",
         "image":"TG_LSTM.png",
-        "url":"http://localhost:3000/TG"
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/TG"
       },
       {
         "title":"TFIDF Text Classification",
@@ -184,7 +184,7 @@
         "title":"RNN for Seasonal Data",
         "category":"Creating an RNN with LSTM to predict seasonal data for Alcohol Sales and Gas/Electricity Usage",
         "image":"RNN_seasonal.jpg",
-        "url":"http://localhost:3000/SeasonalRNN"
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/SeasonalRNN"
       },
       {
         "title":"RNN for Stock Prices",
@@ -234,7 +234,7 @@
         "title":"Breast Cancer Diagnosis",
         "category":"Creating simple Logistic Regression and K-Nearest Neighbour models to predict if an individual has malignant or benign breast cancer cells",
         "image":"BC.png",
-        "url":"http://localhost:3000/BC"
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/BC"
       },
       {
         "title":"Linear Regression for Housing Prices",
