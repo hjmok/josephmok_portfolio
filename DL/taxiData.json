@@ -1,0 +1,65 @@
+{
+  "main": {
+    "name":"Taxi Fare Prediction",
+    "description":"In this project, an Artificial Neural Network estimates a New York Taxi Fare amount and class (Class 1 for greater than $10, Class 0 for less than $10)",
+    "github":"https://github.com/hjmok/Taxi-Fare-Prediction-with-ANN",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Taxi-Fare-Prediction-with-ANN",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"PyTorch was used as the main module for this model.",
+        "description1b":"The dataset contains 120000 rows including information on the pickup time, latitude/longitude coordinates, and number of passengers. The dataset can be found from the Kaggle New York City Taxi Fare Prediction competition in the following link:",
+        "description1d":"https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data"
+      },
+      {	
+	"title":"Feature Engineering",
+        "description1a":"One of the key columns for estimating taxi fare is the distance travelled. However, this information is not directly provided in the dataset. Instead the pickup and dropoff latitude and longitude were given as 4 separate columns. As such, the Haversine formula, which calculates distance across a sphere (Earth in this case) was utilized to feature engineer the distance with the given coordinates. ",
+        "description1b":"The datetime can also be useful information for predicting taxi fare. However, the Neural Network cannot be fed the date time string as data. Instead, the datetime column was further split into the time of day and day of the week, then One Hot Encoded such that the encoded value can be fed into the neural network."
+      },
+      {	
+	"title":"Data Preprocessing",
+        "description1a":"The data had to be separated from categorical and continuous values. Continuous values included the latitude and longitude coordinates, passenger count, and distance travelled, which could directly be converted into tensors to act as inputs into the ANN.",
+        "description1b":"However, categorical columns need to be encoded to be used as input for the ANN. This includes the the hour, AMorPM, and day of the week. As such, these columns were all encoded so that they had an associated numerical value, which can then be converted into a tensor to be fed into the ANN."
+      },    
+      {	
+	"title":"ANN Model",
+        "description1a":"The inputs for both the fare class and fare amount prediction models were the same, which were the coordinates, distance, date time values, and passenger count.  The hidden layers went in the order of 256, 128, and 64 neurons, utilizing the Rectified Linear Unit Activation function. In addition, batch normalization and dropout layers were added to improve the model and reduce overfitting. ",
+        "description1b":"For the fare class model, output size was 2 since the only can only predict whether the Class is 1 for greater than $10 or 0 for less than $10. As such, the loss metric chosen was CrossEntropyLoss since this is a classification problem.  In contrast, the fare amount model had an output size of 1 and loss metric of Root Mean Squared Error, since it is predicting a continuous dollar value. Both models used the Adam optimizer. For more information, please see my implementation on Github:",
+	"description1c":"",
+	"description1d":"https://github.com/hjmok/Taxi-Fare-Prediction-with-ANN"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Fare Class Cross Entropy Loss Plot",
+        "category":"",
+        "image":"taxi_CE.jpg"
+      },
+      {
+        "title":"Fare Amount MSE Loss Plot",
+        "category":"",
+        "image":"taxi_MSE.jpg"
+      }
+    ]
+  }
+}

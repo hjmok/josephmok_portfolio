@@ -1,0 +1,54 @@
+{
+  "main": {
+    "name":"RBM for Movie Ratings",
+    "description":"For this project, a Restricted Boltzmann Machine model predicts whether a user will like or dislike a movie",
+    "github":"https://github.com/hjmok/Restricted-Boltzmann-Machines-for-Movie-Ratings",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Restricted-Boltzmann-Machines-for-Movie-Ratings",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"PyTorch was the main module used for this model.",
+        "description1b":"The dataset consisted of 1 million rows of movie ratings from 6040 users across 3952 films. A rating of 1 or 2 is considered disliked and 3 or more is considered liked. ",
+	"description1c":"Please find the dataset from Grouplens and select the 'MovieLens 1M Dataset':",
+        "description1d":"https://grouplens.org/datasets/movielens/",
+        "image":"RBM_data.jpg"
+      },     
+      {	
+	"title":"Restricted Boltzmann Machines Overview",
+        "description1a":"Restricuted Boltzmann Machine (RBM) is an unsupervised learning algorithm, resulting in no outputs and no back propagation. This means RBMs only have visible and hidden nodes as seen in the top image below. RBMs use Contrastive Divergence to update the weights of nodes by having the every visible node that is connected to every hidden node updating each other. The RBM is constantly updating the values between the visible and hidden nodes until convergence, meaning the values no longer change. To implement this, the algorithm can be seen in the bottom image below.",
+	"description1b":"RBMs are good algorithms to use for recommender systems. This is because the hidden nodes learn to extract key features about the inputs when learning. Using this project as an example, the RBM would get whether a user liked or disliked the movies as the inputs. Then the hidden layer would try to understand why each user liked certain movies, having each hidden node group common traits among the films such as the genre, certain actors/directors, etc. This way, once the hidden layer establish nodes for the key features, it can then use said nodes to recommend further films to specific users.",
+	"description1c":"For more details, please read the following paper by Asja Fischer and Christian Igel, as well as the implementation on Github:",
+	"description1d":"http://cms.dm.uba.ar/academico/materias/1ercuat2018/probabilidades_y_estadistica_C/5a89b5075af5cbef5becaf419457cdd77cc9.pdf",
+	"description1e":"https://github.com/hjmok/Restricted-Boltzmann-Machines-for-Movie-Ratings",
+	"image":"RBM2.png"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Train and Test Loss Results",
+        "category":"",
+        "image":"RBM_result.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "main": {
+    "name":"Face Detection with Haar Cascades",
+    "description":"In this project, pre-trained Haar Cascades are integrated with OpenCV to create a simple Facial feature detection program. Please continue scrolling below to see methodology and results",
+    "github":"https://github.com/hjmok/Face-Detection-with-Haar-Cascades",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Face-Detection-with-Haar-Cascades",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {
+        "title":"Haar Cascade Basics",
+        "description1a":"Haar Cascades use features to calculate contrast between a group of pixels. As such, they can then be trained recognize that certain pixel contrast combinations can commonly represent facial features.",
+	"description1b":"For example, an eye can often be simplied as having a horizontal white-black-white pixel group pattern due to the white background, black iris, and white background of the eye. ",
+        "description1c":"For this Face Detection model, three pre-trained Haar Cascades were used for detecting the face, eyes, and smile. OpenCV was the library utilized to extract the cascades."
+      },
+      {	
+
+	"title":"Detect Function",
+        "description1a":"The purpose of the Detect function is take the frames of the video and visualize the region of interest detected by the cascade. ",
+        "description1b":"First a rectangle is animated around the detected face by grabbing the x,y, width, and height coordinates from the cascade results. Then within this rectangle, more rectangles are created for the detected eyes and smile."
+      },
+      {
+	"title":"Processing",
+        "description1a":"OpenCV can access the user's webcam. As such, the results of the Detect function can be seen live while the webcam was on."
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+
+    ]
+  }
+}

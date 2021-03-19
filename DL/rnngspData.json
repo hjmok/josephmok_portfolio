@@ -1,0 +1,66 @@
+{
+  "main": {
+    "name":"RNN for Stock Prices",
+    "description":"For this project, an RNN model using LSTM predicts the upward and downward trends of Google and AMD stock prices",
+    "github":"https://github.com/hjmok/RNN-for-Stock-Prices",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/RNN-for-Stock-Prices",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"Tensorflow was used as the main module for this model.",
+        "description1b":"The two datasets both contain 2336 rows of data, one for each week day. The two columns of interest are 'Date' and 'Open'. The datasets be found from the following Kaggle link:",
+        "description1d":"https://www.kaggle.com/gunhee/amdgoogle",
+        "image":"gsp_df.jpg"
+      },     
+      {	
+	"title":"RNN Model",
+        "description1a":"For the model input, two sequence sizes were test. The first sequence size was 66. This is due to quarterly earnings reports being once every 3 months, which encompasses roughly 66 financial days. The second sequence size experimented on was 261, which is the number of financial days in a year. In addition, the RNN will predict 1 day into the future for every 66 or 261 weekdays before it.",
+        "description1b":"The model has 4 pairs of LSTM and Dropout layers. Each LSTM layer contains 50 neurons, with a dropout rate of 40% to reduce overfitting. After the 4th LSTM layer, a fully connected layer outputs the final predicted value 1 day into the future. The loss metric used is Mean Squared Error, since this is a regression problem. The Adam optimizer was used for this model. For more details, please look at my code on Github:",
+	"description1d":"https://github.com/hjmok/RNN-for-Stock-Prices",
+	"image":"blank.png"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Google Stock Price Quarterly Prediction",
+        "category":"",
+        "image":"gsp_google.jpg"
+      },
+      {
+        "title":"Google Stock Price Year Prediction",
+        "category":"",
+        "image":"gsp_googleYEAR.jpg"
+      },
+      {
+        "title":"AMD Stock Price Quarterly Prediction",
+        "category":"",
+        "image":"gsp_amd.jpg"
+      },
+      {
+        "title":"AMD Stock Price Year Prediction",
+        "category":"",
+        "image":"gsp_amdYEAR.jpg"
+      }
+    ]
+  }
+}

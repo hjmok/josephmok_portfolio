@@ -1,0 +1,46 @@
+{
+  "main": {
+    "name":"K-Means Clustering for Respiratory Diseases",
+    "description":"The purpose of this project is to demonstrate the application of K-Means Clustering on a mostly unlabelled dataset. This unsupervised learning method can lead to clusters that may indicate survival or death when infected with certain respiratory diseases (COVID19, SARS, ARDS, Streptococcus)",
+    "github":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"Scikit Learn's KMeans class from the cluster module was used to create this model.",
+        "description1b":"The dataset consisted of 8 relevent columns with 372 rows of patient data, including the survival label. However, majority of the survival column was unlabeled (256 rows), so K-means was used to perform unsupervised learning on the dataset. After removing the other remaining null values and the survival column, the final dataset was 185 rows by 7 columns as seen below.",
+	"description1c":"Please find the dataset and implementation on Github in the following links:",
+        "description1d":"https://www.kaggle.com/bachrr/covid-chest-xray",
+        "description1e":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
+        "image":"DS_data.jpg"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Cluster Centroids",
+        "category":"",
+        "image":"DS_result.jpg"
+      }
+    ]
+  }
+}

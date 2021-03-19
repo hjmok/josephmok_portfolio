@@ -1,0 +1,56 @@
+{
+  "main": {
+    "name":"Linear Regression for Housing Prices",
+    "description":"For this project, a simple Linear Regression model predicts 1990 California housing prices",
+    "github":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"Scikit Learn's LinearRegression class from the linear_model module was used to create this model.",
+        "description1b":"The dataset consisted of 20640 rows of median housing values with 10 columns, as seen in the image below.",
+	"description1c":"Please find the dataset in the following link, as well as my implementation on Github:",
+        "description1d":"https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv",
+        "description1e":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
+        "image":"CH_data.jpg"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"y_test vs Predictions Scatter Plot",
+        "category":"",
+        "image":"CH_scatter.jpg"
+      },
+      {
+        "title":"Residuals (y_test minus Predictions) Histogram",
+        "category":"",
+        "image":"CH_dist.jpg"
+      },
+      {
+        "title":"Errors",
+        "category":"",
+        "image":"CH_error.jpg"
+      }
+    ]
+  }
+}

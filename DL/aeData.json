@@ -1,0 +1,54 @@
+{
+  "main": {
+    "name":"AutoEncoders for Movie Ratings",
+    "description":"For this project, a Stacked AutoEncoder model predicts what rating a user will give to a film",
+    "github":"https://github.com/hjmok/AutoEncoder-for-Movie-Ratings",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/AutoEncoder-for-Movie-Ratings",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"PyTorch was the main module used for this model.",
+        "description1b":"The dataset consisted of 1 million rows of movie ratings from 6040 users across 3952 films. The ratings ranged from 1 (lowest) to 5 (highest).",
+	"description1c":"Please find the dataset from Grouplens under 'MovieLens 1M Dataset':",
+        "description1d":"https://grouplens.org/datasets/movielens/",
+        "image":"RBM_data.jpg"
+      },     
+      {	
+	"title":"AutoEncoders Overview",
+        "description1a":"An AutoEncoder is a self-supervising learning algorithm, where the output label is the same as the original input. This means the goal is to have the output match the input, therefore the number of input nodes and output nodes are the same. As such, purpose of the hidden nodes is to extract and encode key features about the input, then decode it to the output. However, this means that the number of hidden nodes cannot exceed the number of input nodes. This is because the model will not learning any key features about the inputs, instead have each hidden node associated directly with an input node.",
+        "description1b":"The ability to match outputs with the original inputs makes AutoEncoders great recommendation systems. Using this project as an example, the AutoEncoder model would get the ratings of each user for a variety of different movies as the inputs. If the model can match the output ratings with the inputs accurately, that means the hidden nodes were able to extract key features about the films that made the user enjoy it. The features will not be specifically labeled, however they may be inferred to have common traits, such as being the same genre, having certain directors or actors, etc. For this project, a Stacked AutoEncoder was used, which just involves more than 1 hidden layer. ",
+	"description1c":"For more details, please read the following paper from Stanford about AutoEncoders, as well as my implementation on Github:",
+	"description1d":"http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/",
+	"description1e":"https://github.com/hjmok/AutoEncoder-for-Movie-Ratings",
+	"image":"AE2.jpg"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Train and Test Loss Results",
+        "category":"",
+        "image":"AE_result.png"
+      }
+    ]
+  }
+}

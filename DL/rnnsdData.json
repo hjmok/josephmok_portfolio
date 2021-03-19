@@ -1,0 +1,87 @@
+{
+  "main": {
+    "name":"RNN for Seasonal Data",
+    "description":"For this project, an RNN model using LSTM is created to predict seasonal data for Alcohol Sales and Gas/Electricity Usage",
+    "github":"https://github.com/hjmok/RNN-for-Seasonal-Data",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/RNN-for-Seasonal-Data",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"PyTorch was used as the main module for this model.",
+        "description1b":"The two datasets both contain 325 points of monthly data, with the two columns showing the date and consumption (either Alcohol or Electricity usage) for that month. The datasets be found from the Federal Reserve of Economic Data:",
+        "description1d":"https://fred.stlouisfed.org/series/IPG2211A2N",
+	"description1e":"https://fred.stlouisfed.org/series/S4248SM144NCEN",
+        "image":"rnn_data.png"
+      },     
+      {	
+	"title":"RNN Model",
+        "description1a":"For the model input, the sequence size selected was 12. This is due to the data being seasonal by each month, therefore the trends following a yearly pattern (i.e. Alcohol sales are expected to increase in summer or holiday time). In addition, the RNN will predict 1 month into the future for every 12 months before it.",
+        "description1b":"The model starts with 1 input leading into an LSTM layer. This LSTM outputs 125 neurons to a fully connected layer. The fully connected layer outputs the final predicted value 1 month into the future. The loss metric used is Mean Squared Error, since this is a continuous value problem. The Adam optimizer was used for this model. For more details, please look at my code on Github:",
+	"description1d":"https://github.com/hjmok/RNN-for-Seasonal-Data",
+	"image":"blank.png"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Alcohol Sales Prediction on Existing Data",
+        "category":"",
+        "image":"RNN_alc.jpg"
+      },
+      {
+        "title":"Alcohol Sales Prediction on Existing Data Zoomed In",
+        "category":"",
+        "image":"RNN_alc_close.jpg"
+      },
+      {
+        "title":"Alcohol Sales Predictions",
+        "category":"",
+        "image":"RNN_alcnew.jpg"
+      },
+      {
+        "title":"Alcohol Sales Predictions Zoomed In",
+        "category":"",
+        "image":"RNN_alcnew_close.jpg"
+      },
+      {
+        "title":"Gas/Electricity Consumption Prediction on Existing Data",
+        "category":"",
+        "image":"RNN_gas.jpg"
+      },
+      {
+        "title":"Gas/Electricity Consumption Prediction on Existing Data Zoomed In",
+        "category":"",
+        "image":"RNN_gas_close.jpg"
+      },
+      {
+        "title":"Gas/Electricity Consumption Predictions",
+        "category":"",
+        "image":"RNN_gasnew.jpg"
+      },
+      {
+        "title":"Gas/Electricity Consumption Predictions Zoomed In",
+        "category":"",
+        "image":"RNN_gasnew_close.jpg"
+      }
+    ]
+  }
+}

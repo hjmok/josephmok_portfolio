@@ -1,0 +1,62 @@
+{
+  "main": {
+    "name":"License Plate Detection and Blurring",
+    "description":"In this project, a Russian license plate Haar Cascade is used to detect license plates in car image and then blurred out. Please continue scrolling below to see methodology and results",
+    "github":"https://github.com/hjmok/Blurring-License-Plate-with-Haar-Cascade",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Blurring-License-Plate-with-Haar-Cascade",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {
+        "title":"Haar Cascade",
+        "description1a":"A pre-trained Russian license plate Haar Cascade was used for this plate detection model. The cascade was utilized by OpenCV."
+      },
+      {	
+
+	"title":"Detect and Blur Function",
+        "description1a":"The purpose of the Detect and Blur function is take the image of the car and visualize the region of interest detected by the Haar cascade. Finally, it will blur out this region. ",
+        "description1b":"First a rectangle is animated around the detected plate by grabbing the x,y,width, and height coordinates from the cascade results. Then within this rectangle, a OpenCV's median blur is used to blur this region of interest. The function will return the modified image."
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Car Plate",
+        "category":"Example 1",
+        "image":"car_plate4.jpg"
+      },
+      {
+        "title":"Car Plate",
+        "category":"Example 2",
+        "image":"car_plate2.jpg"
+      },
+      {
+        "title":"Car Plate",
+        "category":"Example 3",
+        "image":"car_plate3.jpg"
+      },
+      {
+        "title":"Car Plate",
+        "category":"Example 4",
+        "image":"car_plate.jpg"
+      }
+    ]
+  }
+}

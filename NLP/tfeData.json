@@ -1,0 +1,98 @@
+{
+  "main": {
+    "name":"TFIDF Text Classification",
+    "description":"In this project, text feature extraction using TFIDF and LinearSVC, was used to perform text classification on multiple datasets. The resulting model can predict the classification of new incoming texts based on the dataset it was trained on",
+    "github":"https://github.com/hjmok/TFIDF-Text-Classification",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/TFIDF-Text-Classification",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Datasets and Overview",
+        "description1a":"Sci-kit learn was used for this project for its feature extraction libraries, specifically containing a TFIDF vectorizer.",
+        "description1b":"The first dataset, Ham-or-Spam, contains 5572 text messages and labelled as ham or spam. The second and third datasets, Movie Reviews and Amazon Reviews, contain 2000 and 10000 reviews respectively, both labelled as as positive or negative. All datasets can be found in the Github repository linked above. An updated Movie review dataset can also be found in the link below.",
+	"description1d":"http://www.cs.cornell.edu/people/pabo/movie-review-data/"
+      },
+      {	
+
+	"title":"Term Frequency-Inverse Document Frequency (TFIDF)",
+        "description1a":"To perform text feature extraction, the raw texts first need to be vectorized. As such, Count Vectorization is performed to count the occurences of each unique word and logs them into a Document Term Matrix (DTM). A DTM keeps track of every unique word's occurence through every document (text message).",
+        "description1b":"Using the DTM, the TFIDF has the term frequency of each word. Then the inverse document frequency is calculated on each word, which diminishes the weight of terms that occur often in the document set and increases the weight of rarer terms. This is significant, since common words like 'the' and 'is' will now have less importance during feature extraction compares to less common words like 'dog' or 'blue'."
+      },
+      {	
+
+	"title":"Machine Learning Model",
+        "description1a":"For this classifier, a Support Vector Machine was used, particularly Sci-kit Learn's LinearSVC (Support Vector Classifier). Linear SVC returns the best fit hyperplane which categorizes the data. This hyperplane can then be used to predict the classification for new data."
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Confusion Matrix",
+        "category":"",
+        "image":"TFE_Confusion Matrix.jpg"
+      },
+      {
+        "title":"Classification Report",
+        "category":"",
+        "image":"TFE_Classification Report.jpg"
+      },
+      {
+        "title":"Example Predictions",
+        "category":"",
+        "image":"TFE_results.jpg"
+      }
+    ],
+    "projects2": [
+      {
+        "title":"Confusion Matrix",
+        "category":"",
+        "image":"TFE_amazonCM.jpg"
+      },
+      {
+        "title":"Classification Report",
+        "category":"",
+        "image":"TFE_amazonCR.jpg"
+      },
+      {
+        "title":"Example Predictions",
+        "category":"",
+        "image":"TFE_amazonR.jpg"
+      }
+    ],
+    "projects3": [
+      {
+        "title":"Confusion Matrix",
+        "category":"",
+        "image":"TFE_movieCM.jpg"
+      },
+      {
+        "title":"Classification Report",
+        "category":"",
+        "image":"TFE_movieCR.jpg"
+      },
+      {
+        "title":"Example Predictions",
+        "category":"",
+        "image":"TFE_movieR.jpg"
+      }
+    ]       
+  }
+}
