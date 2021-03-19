@@ -1,0 +1,66 @@
+{
+  "main": {
+    "name":"SOM for Bank Frauds",
+    "description":"For this project, a Self Organizing Map performs unsupervised learning to find customers at a bank that most likely commited credit approval fraud",
+    "github":"https://github.com/hjmok/SOM-for-Bank-Frauds",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/SOM-for-Bank-Frauds",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"Minisom was used as the main module for this model as it contained the prebuilt functions necessary to create the SOM model.",
+        "description1b":"The dataset contains information on 690 customers, including their customerID, 14 non-specific columns, and Credit Approval Class (1 for approved, 0 for denied). The lack of titles makes SOM useful since it can find clusters without the context of what the information is.",
+	"description1c":"Please find the dataset from the University of California Irvine Machine Learning Repository:",
+        "description1d":"https://archive.ics.uci.edu/ml/datasets/statlog+(australian+credit+approval)",
+        "image":"SOM_data.jpg"
+      },     
+      {	
+	"title":"Self Organizing Maps Overview",
+        "description1a":"SOM is an unsupervised learning algorithm, as there are no labels on the dataset. SOM reduces dimensionality of a multi-column dataset by clustering similar data points. Moreover, since no backpropagation occurs, the weights of a neuron in SOM are different than ANN neurons. Rather than multiplying the weights to an input and passing through an activation function like in an ANN, SOM neurons use weights as a coordinate, which captures a characteristic of the node itself. As such, there is no activation function. Instead, these coordinates (weights) are used to calculate the distance.",
+        "description1b":"As seen in the image below, the algorithm starts with a grid composed of nodes. The algorithm selects random nodes and computes the distances from these nodes to the neurons using the weights. The neuron with the minimum calculated distance is selected, now called the winning node. The winning node then updates its own weight, as well as the weights of the nodes around it within its own radius. These weights continually update, pulling the neighbouring nodes closer to the winning node and reducing the radius, as seen in the center image below. The algorithm continues to do this until convergence occurs and the radius stops reducing, eventually causing most nodes to be associated with a specific cluster.",
+	"description1c":"Please read the following paper for more details:",
+	"description1d":"https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1990-Kohonen-PIEEE.pdf",
+	"image":"SOM_cluster.jpg"
+      },     
+      {	
+	"title":"SOM Model",
+        "description1a":"For Bank Credit approval, rules and guidelines are followed when determining if a customer can be approved for a loan. However, frauds do not follow these rules as the approval is going to those who should be denied. As such, a SOM can be used by finding the outlier nodes that did not fall under any cluster. Thus, the customers that got approved in these outlier nodes are frauds, whereas the correct action took place for the ones who were denied.",
+        "description1b":"The SOM used a 12x12 grid with default radius of 1 and learning rate of 0.5. Moreover, the input length was 15, which encompassed all the rows excluding the Credit Approval Class. Normally, the customer ID would be excluded in analysis. However, in a SOM, the IDs influence are negligible since the values are similar, so they would all cluster together. In addition, the customer IDs were kept so that the ones that acted as frauds can easily be identified at the end.",
+	"description1c":"For more details, please look at my code on Github:",
+	"description1d":"https://github.com/hjmok/SOM-for-Bank-Frauds",
+	"image":"blank.png"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"SOM Grid Visualization",
+        "category":"Denied = Red Circle, Approved = Green Square",
+        "image":"SOM_grid.jpg"
+      },
+      {
+        "title":"Frauds in Node (3,1)",
+        "category":"0 = Denied, 1 Approved",
+        "image":"SOM_results.png"
+      }
+    ]
+  }
+}

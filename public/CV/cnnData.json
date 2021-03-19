@@ -1,0 +1,60 @@
+{
+  "main": {
+    "name":"CNN - Cat Dog Classifier",
+    "description":"For this project, two Convolutional Neural Networks were trained to classify between Dogs and Cats using both the PyTorch and Tensorflow libraries",
+    "github":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset",
+        "description1a":"The dataset consisted of 24,994 prelabelled photos, evenly split between dogs and cats. The dataset was taken from Kaggle's Dogs vs. Cats Dataset:",
+        "description1d":"https://www.kaggle.com/c/dogs-vs-cats"
+      },
+      {	
+	"title":"Tensorflow CNN",
+        "description1a":"The CNN had the following layer order: Convolutional, Maxpooling, second Convolutional, flattening for the ANN, and finally a fully connected layer to an output layer of 1 neuron. ",
+        "description1b":"The Adam optimizer was selected and binary crossentropy loss was calculated. For more details, please look at my code on Github: ",
+        "description1c":"",
+        "description1d":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/Tensorflow"
+      },
+      {
+	"title":"PyTorch CNN",
+        "description1a":"The CNN had the following layer order: Convolutional, Maxpooling, second Convolutional, second Maxpooling, flattening for the ANN, and finally two fully connected layer to an output layer of 1 neuron. In addition, drop out layers were also used to improve results.",
+        "description1b":"Similar to the Tensorflow CNN, the Adam optimizer was selected and the crossentropy loss was calculated. For more details, please look at my code on Github: ",
+        "description1d":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/PyTorch"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Accuracy Plot",
+        "category":"PyTorch CNN overfitting reduced",
+        "image":"CNN_AccPlot.jpg"
+      },
+      {
+        "title":"Confusion Matrix",
+        "category":"PyTorch CNN Confusion Matrix results",
+        "image":"CNN_ConfusionMatrix.jpg"
+      }
+    ]
+  }
+}

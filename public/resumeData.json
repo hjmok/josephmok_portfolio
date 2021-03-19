@@ -1,0 +1,259 @@
+{
+  "main": {
+    "name":"Joseph Mok",
+    "description":"I am an Automation Engineer and aspiring Data Scientist. I use Python to develop Machine Learning models, with an interest in Computer Vision and NLP applications. Please explore my website to dive into my latest projects!",
+    "image":"profilepic.png",
+    "bio":"Hi there! My name is Joseph Mok and I thank you for visiting my Portfolio website! ",
+    "bio2":"I'm a University of Waterloo Alumni with a Bachelors in Mechanical Engineering and approaching 3 years of work experience. As an Automation Engineer, I've developed multiple SCADA systems and data trending applications by integrating PLCs, HMIs, Databases, and Ignition OPC-UA. ",
+    "bio3":"Due to the heavy use of trending data in my applications, I was introduced to the world of Data Science and Machine Learning. Throughout my journey, I've learned and applied several Machine Learning concepts, including many of my projects which you can find in my portfolio below.",
+    "bio4":"Furthermore, I've attained experiences as both a Mechanical and Automation Engineer in the Food & Beverage, Automotive, Optical, and Tech Industries. Thanks to this, I've developed a broad range of domain knowledge across several industries, which I believe is a powerful asset when developing Machine Learning solutions for multiple fields.",
+    "contactmessage":"Got a question or would like to connect? Send me an email!",
+    "email": "hjmok@hotmail.com",
+    "phone": "647-975-5126",
+    "github":"https://github.com/hjmok?tab=repositories",
+    "address":{
+      "street":"Canada",
+      "city":"Toronto",
+      "state":"Ontario",
+      "zip": ""
+    },
+    "website": "https://github.com/hjmok",
+    "resumedownload":"https://drive.google.com/drive/folders/1O4NsRreLtEV8srhXevoSTcw8RafsEvnC?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok?tab=repositories",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":[
+      {
+        "description1":" • Proficiency in utilizing TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, and Pandas libraries in Python",
+	"description2":" • Programmed various machine learning models including linear/logistic regression, CNN, RNN, NLP models, etc.",
+	"description3":" • Well versed in data preprocessing and feature engineering in preparation of machine learning model training",
+	"description4":" • Experienced integrating MySQL, Python scripting, and Ignition Automation Software for capturing SCADA trend data and data analysis"
+      }
+    ],
+    "education":[
+      {
+        "school":"University of Waterloo",
+        "degree":"Bachelor of Applied Science, Honours Mechanical Engineering ",
+        "graduated":"Graduated June 2019",
+        "description1":" • Completed courses on advanced calculus, ODEs, electro-mechanical design, manufacturing, simulations, and programming in Python, C++, Matlab, & Ladder Logic",
+	"description2":" • Team lead and mechanical designer for the UW Robotics Teams. Lead the team to 2nd in Canada and 15th globally in the 2017 University Rover Challenge, a competition where teams design a Mars Rover robot to perform various desert operation tasks. Designed the mechanical arm for our Rover"
+      }
+    ],
+    "work":[
+      {
+        "company":"YaYA Foods Corp",
+        "title":"Automation Engineer ",
+        "years":"Toronto, Ontario, July 2019 - Present",
+        "description1":" • Lead the automation design for several SCADA systems for beverage manufacturing clients by integrating Rockwell Automation PLCs/HMIs, Ignition Automation Software, MySQL, and ethernet IP networks",
+	"description2":" • Stored transmitter data from PLCs to MySQL database using Ignition SCADA packages. Developed client applications within Ignition for data visualization and analysis (involved heavy Python scripting)",
+	"description3":" • Gained strong troubleshooting skills between ethernet IP networks, VFDs, PLCs, and other hardware to determine root cause of production halts",
+	"description4":" • Sourced transmitters, motors, and any necessary hardware for new automation systems"
+      },
+      {
+        "company":"Apple Inc",
+        "title":"Recycling R&D Engineer Intern",
+        "years":"Cupertino, California, September 2018 - April 2019",
+        "description1":" • Managed development of recycling systems for Apple products. Coordinated with vendors and internal Product Design teams to organize documentation and deadlines",
+	"description2":" • Developed optimal cycle time processes for de-manufacturing of various Apple products. Resulted in a 90% increase in the Unit-per-Hour output compared to the manual methods",
+	"description3":" • Designed semi-autonomous electro-mechanical prototypes to showcase cycle time improvement and disassembly effectiveness. Designs continuously integrated feedback to improve operator ergonomics and to meet relevant California E-waste regulations",
+	"description4":" • Created several DFM iterations and manufactured prototypes by machining & 3D printing"
+      },
+      {
+        "company":"Axon Enterprise Inc",
+        "title":"Hardware Engineer Intern",
+        "years":"Phoenix, Arizona, May 2017 - August 2017",
+        "description1":" • Designed an automated manufacturing robot for glue dispensing on TASER flex circuits",
+	"description2":" • 3D printed, laser cut, machined, soldered, and programmed in Arduino to build prototype",
+	"description3":" • Performed root cause analysis to identify problems in new TASER prototype samples"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },      
+      {
+        "name":"MySQL",
+        "level":"80%"
+      },
+      {
+        "name":"Ignition Automation Software",
+        "level":"90%"
+      }, 
+      {
+        "name":"RSLogix 5000",
+        "level":"90%"
+      },      
+      {
+        "name":"Factorytalk View Studio",
+        "level":"90%"
+      },
+      {
+        "name":"RSLogix 500",
+        "level":"80%"
+      },
+      {
+        "name":"React JS",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects1": [
+      {
+        "title":"GANs",
+        "category":"Generative Adversarial Network for Dog & Cat Images",
+        "image":"fake_samples_epoch_1450.png",
+        "url":"https://hjmok.github.io/josephmok_portfolio/#/GAN"
+      },
+      {
+        "title":"Object Detection with SSD",
+        "category":"Implementing a Single Shot Multibox Detection model for object tracking",
+        "image":"SSD.png",
+        "url":"http://localhost:3000/SSD"
+      },
+      {
+        "title":"Face Detection with Haar Cascades",
+        "category":"Creating a simple Face Detection program using your webcam",
+        "image":"FD.png",
+        "url":"http://localhost:3000/FD"
+      },
+      {
+        "title":"License Plate Detection and Blurring",
+        "category":"Creating a Russian license plate detection program with OpenCV",
+        "image":"plate_cover.png",
+        "url":"http://localhost:3000/license_plate"
+      },
+      {
+        "title":"CNN Cat Dog Classifier",
+        "category":"Comparing a Cat-Dog Classification CNN made using PyTorch and Tensorflow",
+        "image":"CNN.png",
+        "url":"http://localhost:3000/CNN"
+      },
+      {
+        "title":"CNN Alexnet Implementation",
+        "category":"Modifying AlexNet to perform only dog-cat classification and comparing results to my CNN",
+        "image":"AN.png",
+        "url":"http://localhost:3000/AlexNet"
+      }
+    ],
+    "projects2": [
+      {
+        "title":"Novel Text Generation with LSTM",
+        "category":"Training an RNN on different novels to generate texts",
+        "image":"TG_LSTM.png",
+        "url":"http://localhost:3000/TG"
+      },
+      {
+        "title":"TFIDF Text Classification",
+        "category":"Using text feature extraction to classify documents in various datasets, including Ham-or-Spam text messages",
+        "image":"TFE.png",
+        "url":"http://localhost:3000/TFE"
+      },
+      {
+        "title":"Simple Chatbot",
+        "category":"Implementing End-to-End Memory Networks and LSTM to create a simple chatbot",
+        "image":"CB2.png",
+        "url":"http://localhost:3000/CB"
+      },
+      {
+        "title":"Topic Modeling",
+        "category":"Creating two Topic Modeling models using LDA and Non-negative Matrix Factorization",
+        "image":"TM.png",
+        "url":"http://localhost:3000/TM"
+      }
+    ],
+    "projects3": [
+      {
+        "title":"RNN for Seasonal Data",
+        "category":"Creating an RNN with LSTM to predict seasonal data for Alcohol Sales and Gas/Electricity Usage",
+        "image":"RNN_seasonal.jpg",
+        "url":"http://localhost:3000/SeasonalRNN"
+      },
+      {
+        "title":"RNN for Stock Prices",
+        "category":"Creating an RNN with LSTM to predict the Google and AMD Stock Price based on previous trends",
+        "image":"gsp_stonks.png",
+        "url":"http://localhost:3000/StockPriceRNN"
+      },
+      {
+        "title":"Taxi Fare Prediction",
+        "category":"Creating an ANN with PyTorch to perform classification and linear regression on the Taxi Fare Class and Amount respectively.",
+        "image":"taxi.png",
+        "url":"http://localhost:3000/Taxi"
+      },
+      {
+        "title":"Bank Exit Prediction",
+        "category":"Creating an ANN with Tensorflow to predict if a customer will leave a bank",
+        "image":"bank.png",
+        "url":"http://localhost:3000/Bank"
+      },
+      {
+        "title":"Income Class Prediction",
+        "category":"Creating an ANN with PyTorch to predict the income of an individual based on information such as marital status, age, education level, etc.",
+        "image":"income.png",
+        "url":"http://localhost:3000/Income"
+      },
+      {
+        "title":"AutoEncoder for Movie Ratings",
+        "category":"Implementing a Stacked AutoEncoder to predict what rating a user would give a film",
+        "image":"AE.png",
+        "url":"http://localhost:3000/AE"
+      },
+      {
+        "title":"RBM for Movie Ratings",
+        "category":"Implementing a Restricted Boltzmann Machine to predict if a user will like a movie or not",
+        "image":"RBM.png",
+        "url":"http://localhost:3000/RBM"
+      },
+      {
+        "title":"SOM for Bank Frauds",
+        "category":"Implementing a Self Organizing Map to find potential frauds on a Bank Credit Approval Dataset",
+        "image":"SOM.png",
+        "url":"http://localhost:3000/SOM"
+      }
+    ],
+    "projects4": [
+      {
+        "title":"Breast Cancer Diagnosis",
+        "category":"Creating simple Logistic Regression and K-Nearest Neighbour models to predict if an individual has malignant or benign breast cancer cells",
+        "image":"BC.png",
+        "url":"http://localhost:3000/BC"
+      },
+      {
+        "title":"Linear Regression for Housing Prices",
+        "category":"Creating a simple Linear Regression model to predict 1990 California Housing prices",
+        "image":"CH.png",
+        "url":"http://localhost:3000/CH"
+      },
+      {
+        "title":"Credit Card Payment Default Predictions",
+        "category":"Comparing Random Forest, Decision Tree, and Logistic Regression models for predicting credit card payment defaults",
+        "image":"CC.jpeg",
+        "url":"http://localhost:3000/CC"
+      },
+      {
+        "title":"Respiratory Disease Survival",
+        "category":"Using K-Means Clustering on an unlabelled Respiratory Disease dataset",
+        "image":"DS.jpg",
+        "url":"http://localhost:3000/DS"
+      }
+    ]
+  }
+}

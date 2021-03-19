@@ -1,0 +1,64 @@
+{
+  "main": {
+    "name":"CNN - Cat Dog with AlexNet",
+    "description":"For this project, the famous Convolutional Neural Network model, AlexNet, was implemented to train a Cat Dog classifier. The model already came with pre-trained weights that were to be adjusted during the training of the new cat-dog images",
+    "github":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset",
+        "description1a":"The dataset used consisted of 24,994 prelabelled photos, evenly split between dogs and cats. The dataset was taken from Kaggle's Dogs vs. Cats Dataset:",
+        "description1b":"",
+        "description1c":"",
+        "description1d":"https://www.kaggle.com/c/dogs-vs-cats"
+      },
+      {	
+
+	"title":"AlexNet",
+        "description1a":"As stated above, AlexNet already came with pre-trained weights. However, AlexNet is built to have 1000 classification outputs. To implement it for Dog-Cat classification, the final output was reduced to 2.",
+        "description1b":"For more details of the implementation, as well as the layers used in AlexNet, please look at my code on Github: ",
+        "description1c":"",
+        "description1d":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/AlexNet"
+      },
+      {
+	"title":"My CNN",
+        "description1a":"My CNN created using PyTorch was much simpler than AlexNet, containing a lot less layers. ",
+        "description1b":"For more details, please look at my code on Github:",
+        "description1c":"",
+        "description1d":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/PyTorch"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"Accuracy Plot",
+        "category":"AlexNet Training and Validation Accuracy",
+        "image":"AN_Acc.jpg"
+      },
+      {
+        "title":"Confusion Matrix",
+        "category":"AlexNet Confusion Matrix results",
+        "image":"AN_ConfusionMatrix.jpg"
+      }
+    ]
+  }
+}

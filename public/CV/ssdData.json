@@ -1,0 +1,50 @@
+{
+  "main": {
+    "name":"Object Detection with SSD",
+    "description":"In this project, a pre-trained Single Shot MultiBox Detection model was implemented to perform object detection in various videos. Please continue scrolling below to see methodology and results",
+    "github":"https://github.com/hjmok/Object-Detection-with-SSD",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Object-Detection-with-SSD",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {
+        "title":"SSD Basics",
+        "description1a":"Similar to YOLO, SSD looks at the whole image only once and divides the full image into regions, calculating classification probabilities for each region.",
+	"description1b":"This is what makes SSD different from basic CNN classification, as the location of the object must be known within the image. As such, it can be thought of each region within the whole image as a separate image, undergoing a CNN to classify whether the region is an object of interest or not.",
+        "description1c":"For this Deep Learning model, PyTorch and OpenCV were used to take each frame and feed them into the pre-trained SSD model"
+      },
+      {	
+
+	"title":"Detect Function",
+        "description1a":"The purpose of the Detect function is take the frames of the video and convert them into Torch variables that the SSD model can accept. To do this, we first grab the frame in a numpy array, then convert this numpy array into a torch tensor. A fake batch dimension is then added to the torch tensor, which is finally converted into a Torch Variable that will be fed into the SSD model",
+        "description1b":"In addition, this function will also use OpenCV to create a red rectangle around the detected object region in each frame."
+      },
+      {
+	"title":"Processing",
+        "description1a":"Upon loading the pre-trained neural network, the transformations required to get the correct size and colour scales were applied to the frames.",
+        "description1b":"A for loop was then utilized to go through all the frames in the input video, apply the Detect Function, and output a new video with the SSD object detections."
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+
+    ]
+  }
+}

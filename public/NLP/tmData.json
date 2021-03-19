@@ -1,0 +1,77 @@
+{
+  "main": {
+    "name":"Topic Modeling with LDA and NMF",
+    "description":"In this project, Latent Dirichlet Allocation and Non-Negative Matrix Factorization methods are separately used to perform unsupervised topic modeling. The models will create a predetermined number of clusters from the articles and questions provided by the datasets, and the user interprets the clusters by assigning topics",
+    "github":"https://github.com/hjmok/Topic-Modeling-with-LDA-and-NMF/tree/main",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jindodooboo",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/hjmok/Topic-Modeling-with-LDA-and-NMF/tree/main",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "method":{
+    "overview":[
+      {	
+	"title":"Dataset and Library",
+        "description1a":"Sci-kit learn was used for this project for its LDA and NMF imports.",
+        "description1b":"The first dataset contains 404288 questions from Quora. The second dataset contains 11992 articles from National Public Radio: ",
+        "description1d":"https://www.npr.org/",
+	"image":"TM_npr.jpg"
+      },
+      {	
+	"title":"Latent Dirichlet Allocation",
+        "description1a":"LDA assumes documents are probability distributions over latent topics. In laymens terms, documents with similar topics ue similar group of words. Moreover, LDA also assumes topics themselves are probability distributions over words. This means latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus ",
+        "description1b":"As seen in following example image, Doc 1 is most likely going to belong to Topic 2. In addition, Topic 2 has words such as cat and dogs most likely to appear. Using this information, the user would guess what Topic 2 is about, which in this case is pets. These are not definitive, just probabilities",
+	"description1c":"Please follow the Github link to view the LDA implementation: ",
+	"description1d":"https://github.com/hjmok/Topic-Modeling-with-LDA-and-NMF/blob/main/Latent%20Dirichlet%20Allocation.ipynb",
+        "image":"TM_LDA.png"
+      },     
+      {	
+	"title":"Non-Negative Matrix Factorization",
+        "description1a":"Non-negative Matrix Factorization is an unsupervised algorithm that simultaneously performs dimensionality reduction and clustering. We can use it in conjunction with TF-IDF (term frequency, inverse document frequency) to model topics across documents.",
+        "description1b":"Given a non-negative matrix, A, NMF finds k-dimension approximation in terms of non-negative factors, W and H. Then, NMF approximates each object (i.e. column of A) by a linear combination of k reduced dimensions or “basis vectors” in W. Each basis vector can then be interpreted as a cluster. The memberships of objects in these clusters are encoded by H. In essence, while LDA uses high word frequency to create clusters, NMF uses the calculated word coefficient.",
+	"description1c":"Please follow the Github link to view the NMF implementation:",
+	"description1d":"https://github.com/hjmok/Topic-Modeling-with-LDA-and-NMF/blob/main/Non-Negative%20Matrix%20Factorization.ipynb",
+        "image":"TM_NMF.png"
+      }
+    ]
+  },
+  "results":{
+    "projects": [
+      {
+        "title":"NPR Results with Non-Negative Matrix Factorization",
+        "category":"",
+        "image":"TM_NMFnpr.jpg"
+      },
+      {
+        "title":"Quora Results with Non-Negative Matrix Factorization",
+        "category":"",
+        "image":"TM_NMFquora.jpg"
+      }
+    ],
+    "projects2": [
+      {
+        "title":"NPR Results with Latent Dirichlet Allocation",
+        "category":"",
+        "image":"TM_LDAnpr.jpg"
+      },
+      {
+        "title":"Quora Results with Latent Dirichlet Allocation",
+        "category":"",
+        "image":"TM_LDAquora.jpg"
+      }
+    ]
+  }
+}
