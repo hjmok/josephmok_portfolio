@@ -39,36 +39,36 @@
       {
         "title":"Decision Tree Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_dtcr.jpg"
+        "image":"CC_dtcr.JPG"
       },
       {
         "title":"Decision Tree Confusion Matrix",
         "category":"",
-        "image":"CC_dtcm.jpg"
+        "image":"CC_dtcm.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Random Forest Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_rfcr.jpg"
+        "image":"CC_rfcr.JPG"
       },
       {
         "title":"Random Forest Confusion Matrix",
         "category":"",
-        "image":"CC_rfcm.jpg"
+        "image":"CC_rfcm.JPG"
       }
     ],
     "projects3": [
       {
         "title":"Logistic Regression Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_lrcr.jpg"
+        "image":"CC_lrcr.JPG"
       },
       {
         "title":"Logistic Regression Confusion Matrix",
         "category":"",
-        "image":"CC_lrcm.jpg"
+        "image":"CC_lrcm.JPG"
       }
     ]
   }

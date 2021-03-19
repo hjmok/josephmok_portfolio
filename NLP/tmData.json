@@ -53,24 +53,24 @@
       {
         "title":"NPR Results with Non-Negative Matrix Factorization",
         "category":"",
-        "image":"TM_NMFnpr.jpg"
+        "image":"TM_NMFnpr.JPG"
       },
       {
         "title":"Quora Results with Non-Negative Matrix Factorization",
         "category":"",
-        "image":"TM_NMFquora.jpg"
+        "image":"TM_NMFquora.JPG"
       }
     ],
     "projects2": [
       {
         "title":"NPR Results with Latent Dirichlet Allocation",
         "category":"",
-        "image":"TM_LDAnpr.jpg"
+        "image":"TM_LDAnpr.JPG"
       },
       {
         "title":"Quora Results with Latent Dirichlet Allocation",
         "category":"",
-        "image":"TM_LDAquora.jpg"
+        "image":"TM_LDAquora.JPG"
       }
     ]
   }

@@ -47,51 +47,51 @@
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_Confusion Matrix.jpg"
+        "image":"TFE_Confusion Matrix.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_Classification Report.jpg"
+        "image":"TFE_Classification Report.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_results.jpg"
+        "image":"TFE_results.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_amazonCM.jpg"
+        "image":"TFE_amazonCM.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_amazonCR.jpg"
+        "image":"TFE_amazonCR.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_amazonR.jpg"
+        "image":"TFE_amazonR.JPG"
       }
     ],
     "projects3": [
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_movieCM.jpg"
+        "image":"TFE_movieCM.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_movieCR.jpg"
+        "image":"TFE_movieCR.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_movieR.jpg"
+        "image":"TFE_movieR.JPG"
       }
     ]       
   }

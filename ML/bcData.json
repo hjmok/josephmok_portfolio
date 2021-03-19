@@ -39,24 +39,24 @@
       {
         "title":"Classification Report",
         "category":"0 = Benign, 1 = Malignant",
-        "image":"BC_classificationreport.jpg"
+        "image":"BC_classificationreport.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"BC_confusionmatrix.jpg"
+        "image":"BC_confusionmatrix.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Classification Report",
         "category":"0 = Benign, 1 = Malignant",
-        "image":"BC_classificationreport_knn.jpg"
+        "image":"BC_classificationreport_knn.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"BC_confusionmatrix_knn.jpg"
+        "image":"BC_confusionmatrix_knn.JPG"
       }
     ]
   }

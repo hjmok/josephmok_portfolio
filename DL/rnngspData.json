@@ -28,7 +28,7 @@
         "description1a":"Tensorflow was used as the main module for this model.",
         "description1b":"The two datasets both contain 2336 rows of data, one for each week day. The two columns of interest are 'Date' and 'Open'. The datasets be found from the following Kaggle link:",
         "description1d":"https://www.kaggle.com/gunhee/amdgoogle",
-        "image":"gsp_df.jpg"
+        "image":"gsp_df.JPG"
       },     
       {	
 	"title":"RNN Model",
@@ -44,22 +44,22 @@
       {
         "title":"Google Stock Price Quarterly Prediction",
         "category":"",
-        "image":"gsp_google.jpg"
+        "image":"gsp_google.JPG"
       },
       {
         "title":"Google Stock Price Year Prediction",
         "category":"",
-        "image":"gsp_googleYEAR.jpg"
+        "image":"gsp_googleYEAR.JPG"
       },
       {
         "title":"AMD Stock Price Quarterly Prediction",
         "category":"",
-        "image":"gsp_amd.jpg"
+        "image":"gsp_amd.JPG"
       },
       {
         "title":"AMD Stock Price Year Prediction",
         "category":"",
-        "image":"gsp_amdYEAR.jpg"
+        "image":"gsp_amdYEAR.JPG"
       }
     ]
   }

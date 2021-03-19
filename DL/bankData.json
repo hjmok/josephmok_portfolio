@@ -49,12 +49,12 @@
       {
         "title":"Bank Exit Classification Report",
         "category":"",
-        "image":"bank_cr.jpg"
+        "image":"bank_cr.JPG"
       },
       {
         "title":"Bank Exit Confusion Matrix",
         "category":"",
-        "image":"bank_cm.jpg"
+        "image":"bank_cm.JPG"
       }
     ]
   }

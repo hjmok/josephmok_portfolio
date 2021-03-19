@@ -30,7 +30,7 @@
 	"description1c":"Please find the dataset in the following link, as well as my implementation on Github:",
         "description1d":"https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv",
         "description1e":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
-        "image":"CH_data.jpg"
+        "image":"CH_data.JPG"
       }
     ]
   },
@@ -39,17 +39,17 @@
       {
         "title":"y_test vs Predictions Scatter Plot",
         "category":"",
-        "image":"CH_scatter.jpg"
+        "image":"CH_scatter.JPG"
       },
       {
         "title":"Residuals (y_test minus Predictions) Histogram",
         "category":"",
-        "image":"CH_dist.jpg"
+        "image":"CH_dist.JPG"
       },
       {
         "title":"Errors",
         "category":"",
-        "image":"CH_error.jpg"
+        "image":"CH_error.JPG"
       }
     ]
   }

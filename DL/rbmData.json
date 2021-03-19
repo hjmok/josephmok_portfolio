@@ -29,7 +29,7 @@
         "description1b":"The dataset consisted of 1 million rows of movie ratings from 6040 users across 3952 films. A rating of 1 or 2 is considered disliked and 3 or more is considered liked. ",
 	"description1c":"Please find the dataset from Grouplens and select the 'MovieLens 1M Dataset':",
         "description1d":"https://grouplens.org/datasets/movielens/",
-        "image":"RBM_data.jpg"
+        "image":"RBM_data.JPG"
       },     
       {	
 	"title":"Restricted Boltzmann Machines Overview",

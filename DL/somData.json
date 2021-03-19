@@ -29,7 +29,7 @@
         "description1b":"The dataset contains information on 690 customers, including their customerID, 14 non-specific columns, and Credit Approval Class (1 for approved, 0 for denied). The lack of titles makes SOM useful since it can find clusters without the context of what the information is.",
 	"description1c":"Please find the dataset from the University of California Irvine Machine Learning Repository:",
         "description1d":"https://archive.ics.uci.edu/ml/datasets/statlog+(australian+credit+approval)",
-        "image":"SOM_data.jpg"
+        "image":"SOM_data.JPG"
       },     
       {	
 	"title":"Self Organizing Maps Overview",
@@ -37,7 +37,7 @@
         "description1b":"As seen in the image below, the algorithm starts with a grid composed of nodes. The algorithm selects random nodes and computes the distances from these nodes to the neurons using the weights. The neuron with the minimum calculated distance is selected, now called the winning node. The winning node then updates its own weight, as well as the weights of the nodes around it within its own radius. These weights continually update, pulling the neighbouring nodes closer to the winning node and reducing the radius, as seen in the center image below. The algorithm continues to do this until convergence occurs and the radius stops reducing, eventually causing most nodes to be associated with a specific cluster.",
 	"description1c":"Please read the following paper for more details:",
 	"description1d":"https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1990-Kohonen-PIEEE.pdf",
-	"image":"SOM_cluster.jpg"
+	"image":"SOM_cluster.JPG"
       },     
       {	
 	"title":"SOM Model",
@@ -54,7 +54,7 @@
       {
         "title":"SOM Grid Visualization",
         "category":"Denied = Red Circle, Approved = Green Square",
-        "image":"SOM_grid.jpg"
+        "image":"SOM_grid.JPG"
       },
       {
         "title":"Frauds in Node (3,1)",

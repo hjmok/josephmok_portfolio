@@ -48,12 +48,12 @@
       {
         "title":"Income Cross Entropy Loss Plot",
         "category":"",
-        "image":"income_loss.jpg"
+        "image":"income_loss.JPG"
       },
       {
         "title":"Income Test Results",
         "category":"",
-        "image":"income_test.jpg"
+        "image":"income_test.JPG"
       }
     ]
   }

@@ -30,7 +30,7 @@
 	"description1c":"Please find the dataset and implementation on Github in the following links:",
         "description1d":"https://www.kaggle.com/bachrr/covid-chest-xray",
         "description1e":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
-        "image":"DS_data.jpg"
+        "image":"DS_data.JPG"
       }
     ]
   },
@@ -39,7 +39,7 @@
       {
         "title":"Cluster Centroids",
         "category":"",
-        "image":"DS_result.jpg"
+        "image":"DS_result.JPG"
       }
     ]
   }

@@ -53,12 +53,12 @@
       {
         "title":"Fare Class Cross Entropy Loss Plot",
         "category":"",
-        "image":"taxi_CE.jpg"
+        "image":"taxi_CE.JPG"
       },
       {
         "title":"Fare Amount MSE Loss Plot",
         "category":"",
-        "image":"taxi_MSE.jpg"
+        "image":"taxi_MSE.JPG"
       }
     ]
   }
