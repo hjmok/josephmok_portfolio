@@ -28,7 +28,7 @@
         "description1a":"Sci-kit learn was used for this project for its LDA and NMF imports.",
         "description1b":"The first dataset contains 404288 questions from Quora. The second dataset contains 11992 articles from National Public Radio: ",
         "description1d":"https://www.npr.org/",
-	"image":"TM_npr.jpg"
+	"image":"TM_npr.JPG"
       },
       {	
 	"title":"Latent Dirichlet Allocation",

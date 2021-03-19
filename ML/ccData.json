@@ -30,7 +30,7 @@
 	"description1c":"Please find the dataset from the University of California Irvine's Machine Learning Repository, as well as my implementation on Github:",
         "description1d":"https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients",
         "description1e":"https://github.com/hjmok/RandomForest_DecisionTrees_and_LogisticRegression-for-Credit-Card-Default",
-        "image":"CC_data.jpg"
+        "image":"CC_data.JPG"
       }
     ]
   },
@@ -44,7 +44,7 @@
       {
         "title":"Decision Tree Confusion Matrix",
         "category":"",
-        "image":"CC_dtcm.JPG"
+        "image":"CC_dtcm.jpg"
       }
     ],
     "projects2": [
@@ -56,7 +56,7 @@
       {
         "title":"Random Forest Confusion Matrix",
         "category":"",
-        "image":"CC_rfcm.JPG"
+        "image":"CC_rfcm.jpg"
       }
     ],
     "projects3": [
@@ -68,7 +68,7 @@
       {
         "title":"Logistic Regression Confusion Matrix",
         "category":"",
-        "image":"CC_lrcm.JPG"
+        "image":"CC_lrcm.jpg"
       }
     ]
   }

@@ -30,7 +30,7 @@
 	"description1c":"Please find the dataset from the University of California Irvine's Machine Learning Repository, as well as my implementation on Github:",
         "description1d":"https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29",
         "description1e":"https://github.com/hjmok/LogisticRegression_and_KNN_Models-for-Breast-Cancer-Diagnosis",
-        "image":"BC_data.jpg"
+        "image":"BC_data.JPG"
       }
     ]
   },
@@ -56,7 +56,7 @@
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"BC_confusionmatrix_knn.JPG"
+        "image":"BC_confusionmatrix_knn.jpg"
       }
     ]
   }
