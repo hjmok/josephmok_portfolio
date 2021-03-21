@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"License Plate Detection and Blurring",
-    "description":"In this project, a Russian license plate Haar Cascade is used to detect license plates in car image and then blurred out. Please continue scrolling below to see methodology and results",
+    "description":"In this project, a Russian license plate Haar Cascade is used to detect license plates in car image and then blurred out",
     "github":"https://github.com/hjmok/Blurring-License-Plate-with-Haar-Cascade",
     "social":[
       {
