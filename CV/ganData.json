@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"GANs for Dogs & Cats",
-    "description":"The purpose of this project was to create Dog & Cat images with my Generative Adversarial network! Please continue scrolling below to see methodology and results",
+    "description":"The purpose of this project was to create Dog & Cat images using a Generative Adversarial network.",
     "github":"https://github.com/hjmok/GANs-for-Dog-Cat-Images",
     "social":[
       {
