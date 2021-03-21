@@ -32,7 +32,7 @@
       {	
 
 	"title":"Detect Function",
-        "description1a":"The purpose of the Detect function is take the frames of the video and convert them into Torch variables that the SSD model can accept. To do this, we first grab the frame in a numpy array, then convert this numpy array into a torch tensor. A fake batch dimension is then added to the torch tensor, which is finally converted into a Torch Variable that will be fed into the SSD model",
+        "description1a":"The purpose of the Detect function is take the frames of the video and convert them into Torch variables that the SSD model can accept. To do this, we first grab the frame in a numpy array, then convert this numpy array into a torch tensor. A fake batch dimension is then added to the torch tensor, which is finally converted into a Torch Variable that will be fed into the SSD model.",
         "description1b":"In addition, this function will also use OpenCV to create a red rectangle around the detected object region in each frame."
       },
       {
