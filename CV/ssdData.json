@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Object Detection with SSD",
-    "description":"In this project, a pre-trained Single Shot MultiBox Detection model was implemented to perform object detection in various videos. ",
+    "description":"In this project, a pre-trained Single Shot MultiBox Detection model was implemented to perform object detection in various videos",
     "github":"https://github.com/hjmok/Object-Detection-with-SSD",
     "social":[
       {
