@@ -10,7 +10,7 @@
     "contactmessage":"Got a question or would like to connect? Send me an email!",
     "email": "hojinmok@gmail.com",
     "phone": "647-975-5126",
-    "github":"https://github.com/hjmok?tab=repositories",
+    "github":"https://github.com/hjmok",
     "address":{
       "street":"Canada",
       "city":"Toronto",
@@ -26,13 +26,8 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/hjmok?tab=repositories",
+        "url":"https://github.com/hjmok",
         "className":"fa fa-github"
       }
     ]
