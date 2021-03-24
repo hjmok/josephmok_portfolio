@@ -40,10 +40,11 @@
   "resume":{
     "skillmessage":[
       {
-        "description1":" • Proficiency in utilizing TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, and Pandas libraries in Python",
-	"description2":" • Programmed various machine learning models including linear/logistic regression, CNN, RNN, NLP models, etc.",
-	"description3":" • Well versed in data preprocessing and feature engineering in preparation of machine learning model training",
-	"description4":" • Experienced integrating MySQL, Python scripting, and Ignition Automation Software for capturing SCADA trend data and data analysis"
+	"description1":" • Python, React JS, MatLab, C++",
+        "description2":" • TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, and Pandas libraries in Python",
+	"description3":" • MySQL, SQL",
+	"description4":" • Hadoop MapReduce, PySpark",
+	"description4":" • Ignition Automation Software, RSLogix 5000/500"
       }
     ],
     "education":[
