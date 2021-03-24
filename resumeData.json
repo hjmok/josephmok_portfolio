@@ -84,34 +84,6 @@
       }
     ],
     "skills":[
-      {
-        "name":"Python",
-        "level":"90%"
-      },      
-      {
-        "name":"MySQL",
-        "level":"80%"
-      },
-      {
-        "name":"Ignition Automation Software",
-        "level":"90%"
-      }, 
-      {
-        "name":"RSLogix 5000",
-        "level":"90%"
-      },      
-      {
-        "name":"Factorytalk View Studio",
-        "level":"90%"
-      },
-      {
-        "name":"RSLogix 500",
-        "level":"80%"
-      },
-      {
-        "name":"React JS",
-        "level":"50%"
-      }
     ]
   },
   "portfolio":{
