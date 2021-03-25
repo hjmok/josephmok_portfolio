@@ -35,10 +35,10 @@
   "resume":{
     "skillmessage":[
       {
-	"description1":" • Python, React JS, MatLab, C++",
-        "description2":" • TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, and Pandas libraries in Python",
-	"description3":" • MySQL, SQL",
-	"description4":" • Hadoop MapReduce, Pig, PySpark",
+	"description1":" • Languages: Python, React JS, MatLab, C++",
+        "description2":" • ML Libraries: TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, and Pandas",
+	"description3":" • Databases: MySQL, SQL",
+	"description4":" • Big Data Tools: Hadoop MapReduce, Pig, PySpark",
 	"description5":" • Ignition Automation Software, RSLogix 5000/500"
       }
     ],
