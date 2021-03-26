@@ -35,10 +35,10 @@
   "resume":{
     "skillmessage":[
       {
-	"description1":" • Languages: Python, React JS, MatLab, C++",
-        "description2":" • ML Libraries: TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, Pandas, Matplotlib, Seaborn",
-	"description3":" • Databases: MySQL, SQL",
-	"description4":" • Big Data Tools: Hadoop MapReduce, Pig, PySpark",
+	"description1":" • Languages:     Python, JavaScript, MatLab, C++",
+        "description2":" • ML Libraries:  TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, Pandas, PySpark",
+	"description3":" • Databases:     MySQL, SQL",
+	"description4":" • Big Data:      Hadoop, Apache Pig, Apache Spark",
 	"description5":" • Ignition Automation Software, RSLogix 5000/500"
       }
     ],
@@ -56,9 +56,9 @@
         "company":"YaYA Foods Corp",
         "title":"Automation Engineer ",
         "years":"Toronto, Ontario, July 2019 - Present",
-        "description1":" • Lead the automation design for several SCADA systems for beverage manufacturing clients by integrating Rockwell Automation PLCs/HMIs, Ignition Automation Software, MySQL, and ethernet IP networks",
-	"description2":" • Developed data mining process by storing transmitter data from PLCs to MySQL database using Ignition SCADA packages. Developed client applications within Ignition for data analysis (involved heavy Python scripting)",
-	"description3":" • Gained strong troubleshooting skills between ethernet IP networks, VFDs, PLCs, and other hardware to determine root cause of production halts",
+	"description1":" • Developed data mining process that extracts PLC transmitter data, stores in MySQL database, and presents it to Client application designed in Python and Ignition Automation software",
+        "description2":" • Lead the automation design for several SCADA systems for beverage manufacturing clients by integrating Rockwell Automation PLCs/HMIs, Ignition Automation Software, MySQL, and ethernet IP networks",
+	"description3":" • Determined root cause of production halts through strong troubleshooting skills for hardware and software ",
 	"description4":" • Sourced transmitters, motors, and any necessary hardware for new automation systems"
       },
       {
