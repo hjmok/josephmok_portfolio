@@ -54,7 +54,7 @@
     "work":[
       {
         "company":"YaYA Foods Corp",
-        "title":"Senior Automation Engineer ",
+        "title":"Automation Engineer ",
         "years":"Toronto, Ontario, July 2019 - Present",
         "description1":" • Lead the automation design for several SCADA systems for beverage manufacturing clients by integrating Rockwell Automation PLCs/HMIs, Ignition Automation Software, MySQL, and ethernet IP networks",
 	"description2":" • Developed data mining process by storing transmitter data from PLCs to MySQL database using Ignition SCADA packages. Developed client applications within Ignition for data analysis (involved heavy Python scripting)",
