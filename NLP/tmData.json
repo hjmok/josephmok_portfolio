@@ -27,7 +27,7 @@
       },
       {	
 	"title":"Latent Dirichlet Allocation",
-        "description1a":"LDA assumes documents are probability distributions over latent topics. In laymens terms, documents with similar topics ue similar group of words. Moreover, LDA also assumes topics themselves are probability distributions over words. This means latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus ",
+        "description1a":"LDA assumes documents are probability distributions over latent topics. In laymens terms, documents with similar topics use similar group of words. Moreover, LDA also assumes topics themselves are probability distributions over words. This means latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus ",
         "description1b":"As seen in following example image, Doc 1 is most likely going to belong to Topic 2. In addition, Topic 2 has words such as cat and dogs most likely to appear. Using this information, the user would guess what Topic 2 is about, which in this case is pets. These are not definitive, just probabilities",
 	"description1c":"Please follow the Github link to view the LDA implementation: ",
 	"description1d":"https://github.com/hjmok/Topic-Modeling-with-LDA-and-NMF/blob/main/Latent%20Dirichlet%20Allocation.ipynb",
