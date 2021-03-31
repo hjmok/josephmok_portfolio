@@ -35,7 +35,7 @@
       {	
 	"title2":"1) Input Memory Representation",
         "description1a":"This component considers how the stories are inputed into the Memory Networks. First, the stories come in as discrete inputs {Xi}, circled in purple in the image below.",
-        "description1b":"Then Embedding A (red) converts sentences, Xi, into memory vectors, Mi. In addition, Embedding B (green) is used to embed question, q, to give us internal state, u. Internal state, u, will be used to help generate the final prediction in Component 3",
+        "description1b":"Then Embedding A (red) converts sentences, Xi, into memory vectors, Mi. In addition, Embedding B (green) is used to embed question, q, to give us internal state, u. Internal state, u, will be used to help generate the final prediction in Component 3.",
 	"description1c":"Lastly, the inner product, u-transposed multiplied by Mi, is calculated and passed through a SoftMax function (blue) to get weights, Pi.",
         "image":"CB_e2e1.png"
       },
