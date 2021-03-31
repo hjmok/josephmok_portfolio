@@ -42,7 +42,7 @@
       {	
 	"title2":"2) Output Memory Representation",
         "description1a":"This component creates the output vectors that will generate the final prediction after undergoing processing by the Input Memory Representation.",
-        "description1b":"Each sentence, X, has a corresponding output vector, C. As such, Embedding C (circled in purple) is used to convert sentences, Xi, into output vectors, Ci",
+        "description1b":"Each sentence, X, has a corresponding output vector, C. As such, Embedding C (circled in purple) is used to convert sentences, Xi, into output vectors, Ci.",
 	"description1c":"Then, Weighted Sum, O (red), is calculated. O is the sum of the products, Pi (weights) multiplied by Ci (output vectors).",
         "image":"cb_e2e2.png"
       },
