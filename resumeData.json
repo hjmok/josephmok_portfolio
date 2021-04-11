@@ -206,7 +206,7 @@
       },
       {
         "title":"Linear Regression for Housing Prices",
-        "category":"Creating a simple Linear Regression model to predict 1990 California Housing prices",
+        "category":"Creating simple Linear Regression models with PySpark and Scikit-Learn to predict 1990 California Housing prices",
         "image":"CH.png",
         "url":"https://hjmok.github.io/josephmok_portfolio/#/CH"
       },
