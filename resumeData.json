@@ -200,7 +200,7 @@
     "projects4": [
       {
         "title":"Breast Cancer Diagnosis",
-        "category":"Creating simple Logistic Regression and K-Nearest Neighbour models to predict if an individual has malignant or benign breast cancer cells",
+        "category":"Creating simple Logistic Regression and K-Nearest Neighbour models with Scikit Learn and PySpark to predict if an individual has malignant or benign breast cancer cells",
         "image":"BC.png",
         "url":"https://hjmok.github.io/josephmok_portfolio/#/BC"
       },
