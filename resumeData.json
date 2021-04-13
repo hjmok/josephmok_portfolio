@@ -212,7 +212,7 @@
       },
       {
         "title":"Credit Card Payment Default Predictions",
-        "category":"Comparing Random Forest, Decision Tree, and Logistic Regression models for predicting credit card payment defaults",
+        "category":"Comparing Random Forest, Decision Tree, and Logistic Regression models from Scikit-Learn and PySpark for predicting credit card payment defaults",
         "image":"CC.jpeg",
         "url":"https://hjmok.github.io/josephmok_portfolio/#/CC"
       },
