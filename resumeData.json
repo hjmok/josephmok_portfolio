@@ -218,7 +218,7 @@
       },
       {
         "title":"Respiratory Disease Survival",
-        "category":"Using K-Means Clustering on an unlabelled Respiratory Disease dataset",
+        "category":"Using K-Means Clustering with Scikit-Learn and PySpark on an unlabelled Respiratory Disease dataset",
         "image":"DS.jpg",
         "url":"https://hjmok.github.io/josephmok_portfolio/#/DS"
       }
