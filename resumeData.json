@@ -130,7 +130,7 @@
       },
       {
         "title":"TFIDF Text Classification",
-        "category":"Using text feature extraction to classify documents in various datasets, including Ham-or-Spam text messages",
+        "category":"Using PySpark and Scikit-Learn to apply TFIDF text feature extraction to classify documents in various datasets, including Ham-or-Spam text messages",
         "image":"TFE.png",
         "url":"https://hjmok.github.io/josephmok_portfolio/#/TFE"
       },
