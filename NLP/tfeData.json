@@ -33,7 +33,7 @@
       {	
 
 	"title":"Machine Learning Model",
-        "description1a":"For this classifier, a Support Vector Machine was used, particularly Sci-kit Learn's LinearSVC (Support Vector Classifier). Linear SVC returns the best fit hyperplane which categorizes the data. This hyperplane can then be used to predict the classification for new data."
+        "description1a":"For this classifier, a Support Vector Machine was used, particularly Sci-kit Learn and PySpark's LinearSVC (Support Vector Classifier). Linear SVC returns the best fit hyperplane which categorizes the data. This hyperplane can then be used to predict the classification for new data."
       }
     ]
   },
