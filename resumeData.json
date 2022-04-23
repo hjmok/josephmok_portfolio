@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Joseph Mok",
-    "description":"I am an Automation Engineer and aspiring Data Scientist. I use Python to develop Machine Learning models, with an interest in Computer Vision and NLP applications. Please explore my website to dive into my latest projects!",
+    "description":"I am a Machine Learning Engineer and Data Scientist. I use Python to develop Machine Learning models, with an interest in Computer Vision and NLP applications. Please explore my website to dive into my latest projects!",
     "image":"profilepic.png",
     "bio":"Hi there! My name is Joseph Hojin Mok and my goal is to become a Data Scientist!",
     "bio2":"I'm a University of Waterloo Alumnus with a Bachelors in Mechanical Engineering and currently working as an Automation Engineer. For my role, I've developed multiple Supervisory Control & Data Acquisition (SCADA) systems and data trending applications by integrating mySQL database and automation hardware.",
