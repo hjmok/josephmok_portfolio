@@ -75,17 +75,19 @@ class Results extends Component {
           <div className="twelve columns collapsed">
           
             <h1>Ham or Spam Dataset Results</h1>
-            <p align="left">The final accuracy of this model was 98.5%. The resulting accuracy is very high due to the highly predictable sentence structure of spam messages. Often, they will start with positive words such as "Congratulations" and "winner" and end with prompts to respond. As long as the SMS text varies outside of this sentence structure, it can very easily be classified as not spam. Please see below the classification report, confusion matrix, and the predicted classes for new data.</p>
+            <p align="left">The final F1-score of this model was 98%. The resulting F1-score is very high due to the highly predictable sentence structure of spam messages. Often, they will start with positive words such as "Congratulations" and "winner" and end with prompts to respond. As long as the SMS text varies outside of this sentence structure, it can very easily be classified as not spam. Please see below the classification report, confusion matrix, and the predicted classes for new data.</p>
             <div id="portfolio-wrapper" className="bgrid s-bgrid cf">
               {projects}
             </div>
             <h1>Positive or Negative Amazon Review Results</h1>
-            <p align="left">The final accuracy of this model was 86.1%. This scored a lot lower than the Ham or Spam results due to the added complexity of reviews. <br></br> Often, the review will be vary long and using far more vocabulary. This was evidently shown by the resulting shape of X_train after being TFIDF vectorized. In Ham or Spam, 7462 unique words were found over 4179 messages, whereas in the Amazon reviews, 28262 unique words were found over 8000 reviews. The additional vocabulary can often be used for both positive and negative sentiments, thus making the model take into consideration the words prior to understand the context.<br></br>In addition, reviews may often have sentences praising parts of the product, but giving an overall negative final sentiment. This could confuse the model, and an example can be seen in the both the Amazon and Movie Review results below.  </p>
+            <p align="left">The final F1-score of this model was 86%. This scored a lot lower than the Ham or Spam results due to the added complexity of reviews. <br>
+            </br> Often, the reviews can vary in length and utilize far more vocabulary. This was evidently shown by the resulting shape of X_train after being TFIDF vectorized. In Ham or Spam, 7462 unique words were found over 4179 messages, whereas in the Amazon reviews, 28262 unique words were found over 8000 reviews. The additional vocabulary can often be used for both positive and negative sentiments, thus making the model take into consideration the words prior to understand the context.<br>
+            </br>In addition, reviews may often have sentences praising parts of the product, but giving an overall negative final sentiment. This could confuse the model, and an example can be seen in the both the Amazon and Movie Review results below.  </p>
             <div id="portfolio-wrapper" className="bgrid s-bgrid cf">
               {projects2}
             </div>
             <h1>Positive or Negative Movie Review Results</h1>
-            <p align="left">Similar to the Amazon reviews, the final accuracy for this model was 84.5%. Looking over this dataset, the reviews for movies were often much longer than reviews for products on Amazon. Due to this, there is far more complexity as critics will often list multiple good and bad things about the film before the final verdict. For example, in the image below, Line 20 had a review praising the actors but criticizing the film was boring. Messages such as these are prone to incorrect classification by the model. </p>
+            <p align="left">Similar to the Amazon reviews, the final F1-score for this model was 85%. Looking over this dataset, the reviews for movies were often much longer than reviews for products on Amazon. Due to this, there is far more complexity as critics will often list multiple good and bad things about the film before the final verdict. For example, in the image below, Line 20 had a review praising the actors but criticizing the film was boring. Messages such as these are prone to incorrect classification by the model. </p>
             <div id="portfolio-wrapper" className="bgrid s-bgrid cf">
               {projects3}
             </div>

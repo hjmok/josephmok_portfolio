@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/TFIDF-Text-Classification",
         "className":"fa fa-github"
@@ -25,8 +20,8 @@
     "overview":[
       {	
 	"title":"Datasets and Overview",
-        "description1a":"Sci-kit learn was used for this project for its feature extraction libraries, specifically containing a TFIDF vectorizer.",
-        "description1b":"The first dataset, Ham-or-Spam, contains 5572 text messages and labelled as ham or spam. The second and third datasets, Movie Reviews and Amazon Reviews, contain 2000 and 10000 reviews respectively, both labelled as as positive or negative. All datasets can be found in the Github repository linked above. An updated Movie review dataset can also be found in the link below.",
+        "description1a":"Scikit-Learn and PySpark were used for this project for their feature extraction libraries, specifically containing a TFIDF vectorizer.",
+        "description1b":"The first dataset, Ham-or-Spam, contains 5572 text messages and labelled as ham or spam. The second and third datasets, Movie Reviews and Amazon Reviews, contain 2000 and 10000 reviews respectively, both labelled as positive or negative. All datasets can be found in the Github repository linked above. An updated Movie review dataset can also be found in the link below.",
 	"description1d":"http://www.cs.cornell.edu/people/pabo/movie-review-data/"
       },
       {	
@@ -38,7 +33,7 @@
       {	
 
 	"title":"Machine Learning Model",
-        "description1a":"For this classifier, a Support Vector Machine was used, particularly Sci-kit Learn's LinearSVC (Support Vector Classifier). Linear SVC returns the best fit hyperplane which categorizes the data. This hyperplane can then be used to predict the classification for new data."
+        "description1a":"For this classifier, a Support Vector Machine was used, particularly Sci-kit Learn and PySpark's LinearSVC (Support Vector Classifier). Linear SVC returns the best fit hyperplane which categorizes the data. This hyperplane can then be used to predict the classification for new data."
       }
     ]
   },
@@ -47,51 +42,51 @@
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_Confusion Matrix.jpg"
+        "image":"TFE_Confusion Matrix.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_Classification Report.jpg"
+        "image":"TFE_Classification Report.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_results.jpg"
+        "image":"TFE_results.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_amazonCM.jpg"
+        "image":"TFE_amazonCM.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_amazonCR.jpg"
+        "image":"TFE_amazonCR.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_amazonR.jpg"
+        "image":"TFE_amazonR.JPG"
       }
     ],
     "projects3": [
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"TFE_movieCM.jpg"
+        "image":"TFE_movieCM.JPG"
       },
       {
         "title":"Classification Report",
         "category":"",
-        "image":"TFE_movieCR.jpg"
+        "image":"TFE_movieCR.JPG"
       },
       {
         "title":"Example Predictions",
         "category":"",
-        "image":"TFE_movieR.jpg"
+        "image":"TFE_movieR.JPG"
       }
     ]       
   }

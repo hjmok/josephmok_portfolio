@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
         "className":"fa fa-github"
@@ -25,12 +20,12 @@
     "overview":[
       {	
 	"title":"Dataset and Library",
-        "description1a":"Scikit Learn's KMeans class from the cluster module was used to create this model.",
+        "description1a":"Scikit Learn and PySpark's KMeans modules were used to create the models.",
         "description1b":"The dataset consisted of 8 relevent columns with 372 rows of patient data, including the survival label. However, majority of the survival column was unlabeled (256 rows), so K-means was used to perform unsupervised learning on the dataset. After removing the other remaining null values and the survival column, the final dataset was 185 rows by 7 columns as seen below.",
 	"description1c":"Please find the dataset and implementation on Github in the following links:",
         "description1d":"https://www.kaggle.com/bachrr/covid-chest-xray",
         "description1e":"https://github.com/hjmok/K-Means-Clustering-for-Unlabeled-Disease-Survival-Data",
-        "image":"DS_data.jpg"
+        "image":"DS_data.JPG"
       }
     ]
   },
@@ -39,7 +34,7 @@
       {
         "title":"Cluster Centroids",
         "category":"",
-        "image":"DS_result.jpg"
+        "image":"DS_result.JPG"
       }
     ]
   }

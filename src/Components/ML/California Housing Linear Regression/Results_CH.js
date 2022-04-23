@@ -34,7 +34,7 @@ class Results extends Component {
           <div className="twelve columns collapsed">
             <h1>Results</h1>
             <p align="left">Based on the scatter plot below, the relationship between the predicted values and the label values are fairly linear for the most part. In addition, the histogram of the residuals (y_test minus predictions) look similar to a normal distribution, indicating that linear regression was a decent choice for this model. <br>
-            </br>Lastly, the Mean Absolute Error and Root Mean Squared Error show that the prediction results were off by $50104 and $69079 respectively when predicting the housing price. This is a decent error when considering the housing prices can scale up to $500001.</p>
+            </br>Both the PySpark and Scikit Learn Linear Regression modules resulted in similar Root Mean Squared Errors at $71944 and $69079 respectively. This is within one standard deviation of the median housing price, which is $115396.</p>
             <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               {projects}
             </div>

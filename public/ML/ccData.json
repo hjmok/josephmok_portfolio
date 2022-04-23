@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/RandomForest_DecisionTrees_and_LogisticRegression-for-Credit-Card-Default",
         "className":"fa fa-github"
@@ -25,12 +20,12 @@
     "overview":[
       {	
 	"title":"Dataset and Library",
-        "description1a":"Scikit Learn's LogisticRegression, RandomForestClassifier, and DecisionTreeClassifier classes were used create each model.",
+        "description1a":"Scikit Learn's and PySpark's LogisticRegression, RandomForestClassifier, and DecisionTreeClassifier classes were used create each model.",
         "description1b":"The dataset consisted of 30000 rows by 24 columns of client information and payment history, including the label which was the whether they defaulted on the next payment or not. However, the label is unbalanced with 23364 cases of payment and 6636 cases of defaulting.",
 	"description1c":"Please find the dataset from the University of California Irvine's Machine Learning Repository, as well as my implementation on Github:",
         "description1d":"https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients",
         "description1e":"https://github.com/hjmok/RandomForest_DecisionTrees_and_LogisticRegression-for-Credit-Card-Default",
-        "image":"CC_data.jpg"
+        "image":"CC_data.JPG"
       }
     ]
   },
@@ -39,7 +34,7 @@
       {
         "title":"Decision Tree Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_dtcr.jpg"
+        "image":"CC_dtcr.JPG"
       },
       {
         "title":"Decision Tree Confusion Matrix",
@@ -51,7 +46,7 @@
       {
         "title":"Random Forest Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_rfcr.jpg"
+        "image":"CC_rfcr.JPG"
       },
       {
         "title":"Random Forest Confusion Matrix",
@@ -63,7 +58,7 @@
       {
         "title":"Logistic Regression Classification Report",
         "category":"0 = Paid, 1 = Defaulted",
-        "image":"CC_lrcr.jpg"
+        "image":"CC_lrcr.JPG"
       },
       {
         "title":"Logistic Regression Confusion Matrix",

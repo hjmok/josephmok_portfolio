@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
         "className":"fa fa-github"
@@ -52,12 +47,12 @@
       {
         "title":"Accuracy Plot",
         "category":"AlexNet Training and Validation Accuracy",
-        "image":"AN_Acc.jpg"
+        "image":"AN_Acc.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"AlexNet Confusion Matrix results",
-        "image":"AN_ConfusionMatrix.jpg"
+        "image":"AN_ConfusionMatrix.JPG"
       }
     ]
   }

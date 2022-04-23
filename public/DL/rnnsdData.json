@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/RNN-for-Seasonal-Data",
         "className":"fa fa-github"
@@ -45,42 +40,42 @@
       {
         "title":"Alcohol Sales Prediction on Existing Data",
         "category":"",
-        "image":"RNN_alc.jpg"
+        "image":"RNN_alc.JPG"
       },
       {
         "title":"Alcohol Sales Prediction on Existing Data Zoomed In",
         "category":"",
-        "image":"RNN_alc_close.jpg"
+        "image":"RNN_alc_close.JPG"
       },
       {
         "title":"Alcohol Sales Predictions",
         "category":"",
-        "image":"RNN_alcnew.jpg"
+        "image":"RNN_alcnew.JPG"
       },
       {
         "title":"Alcohol Sales Predictions Zoomed In",
         "category":"",
-        "image":"RNN_alcnew_close.jpg"
+        "image":"RNN_alcnew_close.JPG"
       },
       {
         "title":"Gas/Electricity Consumption Prediction on Existing Data",
         "category":"",
-        "image":"RNN_gas.jpg"
+        "image":"RNN_gas.JPG"
       },
       {
         "title":"Gas/Electricity Consumption Prediction on Existing Data Zoomed In",
         "category":"",
-        "image":"RNN_gas_close.jpg"
+        "image":"RNN_gas_close.JPG"
       },
       {
         "title":"Gas/Electricity Consumption Predictions",
         "category":"",
-        "image":"RNN_gasnew.jpg"
+        "image":"RNN_gasnew.JPG"
       },
       {
         "title":"Gas/Electricity Consumption Predictions Zoomed In",
         "category":"",
-        "image":"RNN_gasnew_close.jpg"
+        "image":"RNN_gasnew_close.JPG"
       }
     ]
   }

@@ -9,8 +9,6 @@ import Resume from './Resume';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 
-
-
 class App_test extends Component {
 
   constructor(props){

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { NavHashLink } from 'react-router-hash-link';
+
 
 class Footer extends Component {
   render() {
@@ -18,7 +20,9 @@ class Footer extends Component {
               {networks}
            </ul>
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top">
+          <NavHashLink smooth to="#home"><i className="icon-up-open"></i></NavHashLink>
+        </a></div>
      </div>
   </footer>
     );

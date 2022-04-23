@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/Novel-Text-Generation-with-LSTM",
         "className":"fa fa-github"
@@ -57,35 +52,35 @@
       {
         "title":"Shakespeare Text Generation",
         "category":"",
-        "image":"TG_shakespeare.jpg"
+        "image":"TG_shakespeare.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Tom Sawyer Text Generation",
         "category":"",
-        "image":"TG_sawyer.jpg"
+        "image":"TG_sawyer.JPG"
       }
     ],
     "projects3": [
       {
         "title":"Pride and Prejudice Text Generation",
         "category":"",
-        "image":"TG_pp.jpg"
+        "image":"TG_pp.JPG"
       }
     ],
     "projects4": [
       {
         "title":"War and Peace Text Generation",
         "category":"",
-        "image":"TG_wp.jpg"
+        "image":"TG_wp.JPG"
       }
     ],    
     "projects5": [
       {
         "title":"Meditation",
         "category":"",
-        "image":"TG_meditation.jpg"
+        "image":"TG_meditation.JPG"
       }
     ]
   }

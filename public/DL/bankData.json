@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/Bank-Exit-Prediction-with-ANN",
         "className":"fa fa-github"
@@ -49,12 +44,12 @@
       {
         "title":"Bank Exit Classification Report",
         "category":"",
-        "image":"bank_cr.jpg"
+        "image":"bank_cr.JPG"
       },
       {
         "title":"Bank Exit Confusion Matrix",
         "category":"",
-        "image":"bank_cm.jpg"
+        "image":"bank_cm.JPG"
       }
     ]
   }

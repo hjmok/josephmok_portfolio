@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Route, Link} from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import ParticlesBg from 'particles-bg'
 
 
@@ -22,15 +23,24 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li>
-               <a href="/">
-                  <Link to="/#/portfolio" target="_blank">
+               <a href="/" >
+                  <NavHashLink to="/#portfolio">
                      Back
-                  </Link>
+                  </NavHashLink>
                </a>
             </li>
-            <li className="current"><a className="smoothscroll" href="#home">Overview</a></li>
-	         <li><a className="smoothscroll" href="#resume">Method</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Results</a></li>
+
+            <li className="current"><a className="smoothscroll">
+               <NavHashLink smooth to="#home">Overview</NavHashLink>
+            </a></li>
+
+	         <li><a className="smoothscroll">
+               <NavHashLink smooth to="#resume">Method</NavHashLink>
+            </a></li>
+
+            <li><a className="smoothscroll">
+               <NavHashLink smooth to="#portfolio">Results</NavHashLink>
+            </a></li>
          </ul>
       </nav>
 

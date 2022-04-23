@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/Chatbot-with-End-to-End-Memory-Network",
         "className":"fa fa-github"
@@ -28,7 +23,7 @@
         "description1a":"For this project, Keras was used as the primary library for creating the model.",
         "description1b":"The Babi dataset from Facebook Research consists of three components: Story, Question, and Answer. The chatbot model should be able to predict the answer based on a query provided to it in relation to the story, as seen in the example image below. However, one limitation is that the stories and questions must use vocabulary used within the dataset, so no new words can be introduced when testing on new stories. The dataset can be found in the following link. ",
 	"description1d":"https://research.fb.com/downloads/babi/",
-        "image":"CB_examplestory.jpg"
+        "image":"CB_examplestory.JPG"
       },
       {	
 	"title":"End-to-End Memory Network",
@@ -40,14 +35,14 @@
       {	
 	"title2":"1) Input Memory Representation",
         "description1a":"This component considers how the stories are inputed into the Memory Networks. First, the stories come in as discrete inputs {Xi}, circled in purple in the image below.",
-        "description1b":"Then Embedding A (red) converts sentences, Xi, into memory vectors, Mi. In addition, Embedding B (green) is used to embed question, q, to give us internal state, u. Internal state, u, will be used to help generate the final prediction in Component 3",
+        "description1b":"Then Embedding A (red) converts sentences, Xi, into memory vectors, Mi. In addition, Embedding B (green) is used to embed question, q, to give us internal state, u. Internal state, u, will be used to help generate the final prediction in Component 3.",
 	"description1c":"Lastly, the inner product, u-transposed multiplied by Mi, is calculated and passed through a SoftMax function (blue) to get weights, Pi.",
-        "image":"cb_e2e1.png"
+        "image":"CB_e2e1.png"
       },
       {	
 	"title2":"2) Output Memory Representation",
         "description1a":"This component creates the output vectors that will generate the final prediction after undergoing processing by the Input Memory Representation.",
-        "description1b":"Each sentence, X, has a corresponding output vector, C. As such, Embedding C (circled in purple) is used to convert sentences, Xi, into output vectors, Ci",
+        "description1b":"Each sentence, X, has a corresponding output vector, C. As such, Embedding C (circled in purple) is used to convert sentences, Xi, into output vectors, Ci.",
 	"description1c":"Then, Weighted Sum, O (red), is calculated. O is the sum of the products, Pi (weights) multiplied by Ci (output vectors).",
         "image":"cb_e2e2.png"
       },
@@ -60,7 +55,7 @@
         "description1a":"The example above was for a single End-to-End memory network layer. However, we can adjust it to go through multiple layers, as well as RNN and LSTM as seen in the image below.",
         "description1b":"For this model 32 LSTM layers were added before the final Softmax activation function for generating the final prediction. For more details, please look at my code on Github:",
 	"description1d":"https://github.com/hjmok/Chatbot-with-End-to-End-Memory-Network",
-        "image":"cb_e2e4.png"
+        "image":"CB_e2e4.png"
       }
     ]
   },
@@ -69,22 +64,22 @@
       {
         "title":"Train vs Test Accuracy Plot",
         "category":"",
-        "image":"cb_loss.jpg"
+        "image":"cb_loss.JPG"
       },
       {
         "title":"Example New Story 1",
         "category":"",
-        "image":"cb_s1.jpg"
+        "image":"cb_s1.JPG"
       },
       {
         "title":"Example New Story 2",
         "category":"",
-        "image":"cb_s2.jpg"
+        "image":"cb_s2.JPG"
       },
       {
         "title":"Example New Story 3",
         "category":"",
-        "image":"cb_s3.jpg"
+        "image":"cb_s3.JPG"
       }   
    ] 
   }

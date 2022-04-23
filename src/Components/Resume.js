@@ -20,7 +20,8 @@ class Resume extends Component {
             <p>{skillmessage.description1}
             <br></br>{skillmessage.description2}
             <br></br>{skillmessage.description3}
-            <br></br>{skillmessage.description4}</p>
+            <br></br>{skillmessage.description4}
+            <br></br>{skillmessage.description5}</p>
         </div>
       })
       var education = this.props.data.education.map(function(education){
@@ -54,13 +55,13 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span>Skills</span></h1>
          </div>
 
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
+                 {skillmessage}
                </div>
             </div>
          </div>
@@ -77,26 +78,15 @@ class Resume extends Component {
           {work}
         </div>
     </div>
-
-
-
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Summary of Skills</span></h1>
+            <h1><span>Education</span></h1>
          </div>
 
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+            <p>{education}</p>
+			  </div>
       </div>
    </section>
     );

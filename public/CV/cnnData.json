@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/CNN-Dog-Cat-Classification/tree/main",
         "className":"fa fa-github"
@@ -48,12 +43,12 @@
       {
         "title":"Accuracy Plot",
         "category":"PyTorch CNN overfitting reduced",
-        "image":"CNN_AccPlot.jpg"
+        "image":"CNN_AccPlot.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"PyTorch CNN Confusion Matrix results",
-        "image":"CNN_ConfusionMatrix.jpg"
+        "image":"CNN_ConfusionMatrix.JPG"
       }
     ]
   }

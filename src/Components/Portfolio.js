@@ -9,7 +9,7 @@ class Portfolio extends Component {
         
         return (
           <div key={projects1.title} className="columns portfolio-item"><div className="item-wrap">
-              <a href={projects1.url} title={projects1.title}>
+              <a href={projects1.url} title={projects1.title} target="_blank">
                 <img alt={projects1.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -31,7 +31,7 @@ class Portfolio extends Component {
         return (
           <div key={projects2.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects2.url} title={projects2.title}>
+              <a href={projects2.url} title={projects2.title} target="_blank">
                 <img alt={projects2.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -53,7 +53,7 @@ class Portfolio extends Component {
         return (
           <div key={projects3.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects3.url} title={projects3.title}>
+              <a href={projects3.url} title={projects3.title} target="_blank">
                 <img alt={projects3.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -75,7 +75,7 @@ class Portfolio extends Component {
         return (
           <div key={projects4.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects4.url} title={projects4.title}>
+              <a href={projects4.url} title={projects4.title} target="_blank">
                 <img alt={projects4.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">

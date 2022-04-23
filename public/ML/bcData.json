@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/LogisticRegression_and_KNN_Models-for-Breast-Cancer-Diagnosis",
         "className":"fa fa-github"
@@ -25,12 +20,12 @@
     "overview":[
       {	
 	"title":"Dataset and Library",
-        "description1a":"Scikit Learn's LogisticRegression and KNeighborsClassifier classes were used to create the models.",
+        "description1a":"Scikit Learn's LogisticRegression and KNeighborsClassifier classes were used to create the first two models. In addition, PySpark's LogisticRegression module was used to create a third model.",
         "description1b":"The dataset consisted of 569 rows by 32 columns of patient information, including the label which was the Malignant or Benign diagnosis.",
 	"description1c":"Please find the dataset from the University of California Irvine's Machine Learning Repository, as well as my implementation on Github:",
         "description1d":"https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29",
         "description1e":"https://github.com/hjmok/LogisticRegression_and_KNN_Models-for-Breast-Cancer-Diagnosis",
-        "image":"BC_data.jpg"
+        "image":"BC_data.JPG"
       }
     ]
   },
@@ -39,24 +34,36 @@
       {
         "title":"Classification Report",
         "category":"0 = Benign, 1 = Malignant",
-        "image":"BC_classificationreport.jpg"
+        "image":"BC_classificationreport.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"",
-        "image":"BC_confusionmatrix.jpg"
+        "image":"BC_confusionmatrix.JPG"
       }
     ],
     "projects2": [
       {
         "title":"Classification Report",
         "category":"0 = Benign, 1 = Malignant",
-        "image":"BC_classificationreport_knn.jpg"
+        "image":"BC_classificationreport_knn.JPG"
       },
       {
         "title":"Confusion Matrix",
         "category":"",
         "image":"BC_confusionmatrix_knn.jpg"
+      }
+    ],
+    "projects3": [
+      {
+        "title":"Classification Report",
+        "category":"0 = Benign, 1 = Malignant",
+        "image":"BC_classificationreport_pyspark.JPG"
+      },
+      {
+        "title":"Confusion Matrix",
+        "category":"",
+        "image":"BC_confusionmatrix_pyspark.jpg"
       }
     ]
   }

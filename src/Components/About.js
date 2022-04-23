@@ -36,14 +36,15 @@ class About extends Component {
 						   <span>{name}</span><br />
 						   <span>{street}<br />
 						         {city} {state}, {zip}
-                   </span><br />
+                     </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span>{email}</span><br />
+                     <span><a href="https://www.linkedin.com/in/hojinjosephmok/" target="_blank">https://www.linkedin.com/in/hojinjosephmok/ </a></span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href='./Resume/Template Resume.pdf' download className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href='./Resume/Joseph_Mok_Resume.pdf' download className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

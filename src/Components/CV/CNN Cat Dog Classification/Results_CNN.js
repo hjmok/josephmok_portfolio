@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player';
 
 class Results extends Component {
   render() {
@@ -18,7 +17,7 @@ class Results extends Component {
                     <p>{projects.category}</p>
                   </div>
                 </div>
-              </a>
+              </a>npm 
             </div>
           </div>
         )

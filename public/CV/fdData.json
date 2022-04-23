@@ -1,18 +1,13 @@
 {
   "main": {
     "name":"Face Detection with Haar Cascades",
-    "description":"In this project, pre-trained Haar Cascades are integrated with OpenCV to create a simple Facial feature detection program. Please continue scrolling below to see methodology and results",
+    "description":"In this project, pre-trained Haar Cascades are integrated with OpenCV to create a simple Facial feature detection program",
     "github":"https://github.com/hjmok/Face-Detection-with-Haar-Cascades",
     "social":[
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/hojin-joseph-mok-31153a163/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",

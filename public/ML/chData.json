@@ -10,11 +10,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/jindodooboo",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
         "className":"fa fa-github"
@@ -25,31 +20,31 @@
     "overview":[
       {	
 	"title":"Dataset and Library",
-        "description1a":"Scikit Learn's LinearRegression class from the linear_model module was used to create this model.",
+        "description1a":"Two separate models were created using Scikit Learn's LinearRegression module and PySpark's MLLib to use the LinearRegression module.",
         "description1b":"The dataset consisted of 20640 rows of median housing values with 10 columns, as seen in the image below.",
 	"description1c":"Please find the dataset in the following link, as well as my implementation on Github:",
         "description1d":"https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv",
         "description1e":"https://github.com/hjmok/Linear-Regression-Model-on-1990-California-Housing-Prices",
-        "image":"CH_data.jpg"
+        "image":"CH_data.JPG"
       }
     ]
   },
   "results":{
     "projects": [
       {
-        "title":"y_test vs Predictions Scatter Plot",
+        "title":"Scikit-Learn Resiuals Scatter Plot",
         "category":"",
-        "image":"CH_scatter.jpg"
+        "image":"CH_scatter.JPG"
       },
       {
-        "title":"Residuals (y_test minus Predictions) Histogram",
+        "title":"Residuals Histogram",
         "category":"",
-        "image":"CH_dist.jpg"
+        "image":"CH_dist.JPG"
       },
       {
         "title":"Errors",
         "category":"",
-        "image":"CH_error.jpg"
+        "image":"CH_error.JPG"
       }
     ]
   }
