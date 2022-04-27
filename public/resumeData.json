@@ -38,7 +38,7 @@
 	"description1":" • Languages:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‎‎‎‎‏‏‎ ‎Python, JavaScript, MatLab, C++",
         "description2":" • ML Libraries:  ‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‎TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, spaCy, NLTK, PySpark",
 	"description3":" • Databases:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ MySQL, PostgreSQL, BigQuery",
-	"description4":" • ML on Cloud:‏‏‎ ‎‏‏‎   ‎‏‏‎   Docker, Kubernetes, Kubeflow, and Apache Airflow on GCP",
+	"description4":" • ML on Cloud:‏‏‎ ‎‏‏‎   ‎‏‏‎     Docker, Kubernetes, Kubeflow, and Apache Airflow on GCP",
 	"description5":" • Platforms:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎‎GCP, AWS, Databricks, Jupyter Notebook"
       }
     ],
@@ -54,7 +54,7 @@
         "school":"Coursera",
         "degree":"Machine Learning on Google Cloud Platform with Tensorflow Certificate",
         "graduated":"Graduated April 2022",
-        "description1":" • Completed 9 courses to learn how to develop machine learning models and pipelines on Google Cloud Platform"
+        "description1":" • Completed 9 courses on how to develop machine learning models and pipelines on GCP"
       }
     ],
     "work":[
@@ -62,10 +62,11 @@
         "company":"Fluence Analytics",
         "title":"Machine Learning and Automation Engineer",
         "years":"Houston, Texas, July 2021 - Present",
-	"description1":" • Developed data mining process that extracts PLC transmitter data, stores in MySQL database, and presents it to Client application designed in Python and Ignition Automation software",
-        "description2":" • Lead the automation design for several SCADA systems for beverage manufacturing clients by integrating Rockwell Automation PLCs/HMIs, Ignition Automation Software, MySQL, and ethernet IP networks",
-	"description3":" • Determined root cause of production halts through strong troubleshooting skills for hardware and software ",
-	"description4":" • Sourced transmitters, motors, and any necessary hardware for new automation systems"
+	"description1":" • Created automated data preprocessing and visualization tools for faster data exploration",
+        "description2":" • Formatted output IoT data from ACOMP product onto BigQuery in Google Cloud Platform",
+	"description3":" • Set up Cloud Storage Buckets and Kubeflow Pipeline instances for data processing and model training",
+	"description4":" • Developed machine learning models using Tensorflow and Scikit-Learn for classification from ACOMP data",
+	"description5":" • Developed an RNN with LSTM with 0.96 F1-score using TensorFlow to detect baselines regions from detectors. Eliminated manual postprocessing of data by Application Scientist, saving several hours of labor"
       },
       {
         "company":"YaYA Foods Corp",
