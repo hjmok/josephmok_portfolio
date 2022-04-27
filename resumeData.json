@@ -36,9 +36,9 @@
     "skillmessage":[
       {
 	"description1":" • Languages:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‎‎‎‎‏‏‎ ‎Python, JavaScript, MatLab, C++",
-        "description2":" • ML Libraries:  ‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‎TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, Pandas, PySpark",
+        "description2":" • ML Libraries:  ‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‎TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, spaCy, NLTK, PySpark",
 	"description3":" • Databases:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ MySQL, PostgreSQL, BigQuery",
-	"description4":" • ML on Cloud:‏‏‎ ‎‏‏‎   ‎‏‏‎ Docker, Kubernetes, Kubeflow, and Apache Airflow on Google Cloud Platform",
+	"description4":" • ML on Cloud:‏‏‎ ‎‏‏‎   ‎‏‏‎   Docker, Kubernetes, Kubeflow, and Apache Airflow on GCP",
 	"description5":" • Platforms:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎‎GCP, AWS, Databricks, Jupyter Notebook"
       }
     ],
@@ -49,6 +49,12 @@
         "graduated":"Graduated June 2019",
         "description1":" • Completed courses on advanced calculus, ODEs, electro-mechanical design, manufacturing, simulations, and programming in Python, C++, Matlab, & Ladder Logic",
 	"description2":" • Team lead and mechanical designer for the UW Robotics Teams. Lead the team to 2nd in Canada and 15th globally in the 2017 University Rover Challenge, a competition where teams design a Mars Rover robot to perform various desert operation tasks. Designed the mechanical arm for our Rover"
+      },
+      {
+        "school":"Coursera",
+        "degree":"Machine Learning on Google Cloud Platform with Tensorflow Certificate",
+        "graduated":"Graduated April 2022",
+        "description1":" • Completed 9 courses to learn how to develop machine learning models and pipelines on Google Cloud Platform"
       }
     ],
     "work":[
