@@ -36,7 +36,7 @@
     "skillmessage":[
       {
 	"description1":" • Languages:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‎‎‎‎‏‏‎ ‎Python, JavaScript, MatLab, C++",
-        "description2":" • ML Libraries:  ‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‎TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, Pandas, PySpark,
+        "description2":" • ML Libraries:  ‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‎TensorFlow/Keras, PyTorch, Scikit-Learn, OpenCV, NumPy, spaCy, NLTK, Pandas, PySpark",
 	"description3":" • Databases:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ MySQL, PostgreSQL, BigQuery",
 	"description4":" • ML on Cloud:‏‏‎ ‎‏‏‎   ‎‏‏‎ Docker, Kubernetes, Kubeflow, and Apache Airflow on Google Cloud Platform",
 	"description5":" • Platforms:‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎ ‎‏‏‎ ‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎‏‏‎‎GCP, AWS, Databricks, Jupyter Notebook"
